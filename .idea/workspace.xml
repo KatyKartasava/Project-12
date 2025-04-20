@@ -43,6 +43,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
+    "npm.deploy.executor": "Run",
     "npm.start.executor": "Run",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "ts.external.directory.path": "D:\\Incubator\\New start project\\project-12\\node_modules\\typescript\\lib",
@@ -131,7 +132,7 @@
       <workItem from="1744566652709" duration="3438000" />
       <workItem from="1744972367937" duration="2019000" />
       <workItem from="1745145779707" duration="1624000" />
-      <workItem from="1745147568793" duration="2002000" />
+      <workItem from="1745147568793" duration="3914000" />
     </task>
     <servers />
   </component>

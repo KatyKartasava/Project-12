@@ -20,7 +20,7 @@ function App() {
             <Header />
             <Main />
             <Services />
-            <Price />
+
             <Recommendations />
             <Education />
             <WorkHistory />

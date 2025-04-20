@@ -37,14 +37,15 @@ const StyledRightMenu = styled.nav`
         bottom: 0;
         left: 0;
         right: 0;
-        position: absolute;
+        position: fixed;
+        z-index: 999;
         width: 100%;
         height: 80px;
 
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding: 20px 15px 20px 18px;
+        padding: 20px 25px 20px 18px;
     }
 `
 const ListItem = styled.ul`
