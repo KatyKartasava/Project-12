@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Project-12/static/css/main.31d6cfe0.css",
+    "main.js": "/Project-12/static/js/main.714f94e2.js",
+    "static/js/787.25eaef86.chunk.js": "/Project-12/static/js/787.25eaef86.chunk.js",
+    "static/media/map.png": "/Project-12/static/media/map.6ecfffaf99c8e9dfb0b3.png",
+    "static/media/FillingStation.svg": "/Project-12/static/media/FillingStation.800a60ffc76532910e137bdd4aa4dddc.svg",
+    "static/media/place-your-design-here.jpg": "/Project-12/static/media/place-your-design-here.ee9d2d341645235f6b4b.jpg",
+    "static/media/PetrolGarage.svg": "/Project-12/static/media/PetrolGarage.a09585fe5e56c73829e5fc2f8e074a8d.svg",
+    "static/media/corporate-identity-mock-up-logo.jpg": "/Project-12/static/media/corporate-identity-mock-up-logo.b209612ee90efef544cb.jpg",
+    "static/media/Station.svg": "/Project-12/static/media/Station.fce257eb6a2379e7999cb301cbfd1c3d.svg",
+    "static/media/photo.png": "/Project-12/static/media/photo.b0042f9ef1243f908682.png",
+    "static/media/web-template-with-landing-page-traditional-italian-food-restaurant.jpg": "/Project-12/static/media/web-template-with-landing-page-traditional-italian-food-restaurant.57e95a8082a1e5c531c1.jpg",
+    "static/media/modern-business-brochure.jpg": "/Project-12/static/media/modern-business-brochure.b95338fe64e8af5723c4.jpg",
+    "static/media/modern-pink-alcohol-ink-business-card.jpg": "/Project-12/static/media/modern-pink-alcohol-ink-business-card.15a39a46918fcabe8f69.jpg",
+    "static/media/red-professional-business-branding-stationery-set.jpg": "/Project-12/static/media/red-professional-business-branding-stationery-set.8a66f56e3a37763c582c.jpg",
+    "static/media/sprite.svg": "/Project-12/static/media/sprite.041b1ea30cf9eb6af293d78984fe96c0.svg",
+    "static/media/Petroleum.svg": "/Project-12/static/media/Petroleum.ef958c70bb124e39bb6608925265e101.svg",
+    "static/media/landing-page-business-startup.jpg": "/Project-12/static/media/landing-page-business-startup.c9a389c01eda07395954.jpg",
+    "static/media/white-business-card-with-red-details.jpg": "/Project-12/static/media/white-business-card-with-red-details.41d8a7f0c52cd0fa3a20.jpg",
+    "static/media/Profile.jpg": "/Project-12/static/media/Profile.b9cab7fea30512a18762.jpg",
+    "static/media/flyer-letterhead-mockup.jpg": "/Project-12/static/media/flyer-letterhead-mockup.b1f856f35e9fb0cd9db6.jpg",
+    "index.html": "/Project-12/index.html",
+    "static/media/ArrowButtonMain.svg": "/Project-12/static/media/ArrowButtonMain.3e040dce24bac708a169bd5f4bb08095.svg",
+    "static/media/ArrowButtonHover.svg": "/Project-12/static/media/ArrowButtonHover.9f4c5ed5e9ac82344dbc974df79ea239.svg",
+    "main.714f94e2.js.map": "/Project-12/static/js/main.714f94e2.js.map",
+    "787.25eaef86.chunk.js.map": "/Project-12/static/js/787.25eaef86.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.714f94e2.js"
+  ]
+}
