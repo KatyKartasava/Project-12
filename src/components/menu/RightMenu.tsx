@@ -46,6 +46,7 @@ const StyledRightMenu = styled.nav`
         flex-direction: row;
         justify-content: space-between;
         padding: 20px 25px 20px 18px;
+        background-color: rgba(255, 255, 255, 0.7);
     }
 `
 const ListItem = styled.ul`

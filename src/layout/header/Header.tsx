@@ -16,5 +16,7 @@ export const Header = () => {
 };
 
 const StyledHeader = styled.header`
-    
+    & div {
+        position: relative;
+    }
 `
