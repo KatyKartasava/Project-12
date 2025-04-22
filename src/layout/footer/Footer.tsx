@@ -16,7 +16,7 @@ export const Footer = () => {
 const StyledFooter = styled.footer`
     text-align: center;
 
-    ${Container} {
+    & > div {
         background-color: ${theme.colors.primaryBg};
     }
 

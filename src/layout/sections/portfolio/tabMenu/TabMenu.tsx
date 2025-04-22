@@ -23,8 +23,10 @@ const StyledTabMenu = styled.div`
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 37px;
+        column-gap: 37px;
     }
 `
 
-const ListItem = styled.li``
+const ListItem = styled.li`
+    
+`

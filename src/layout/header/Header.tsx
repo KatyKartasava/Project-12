@@ -3,6 +3,7 @@ import styled from "styled-components";
 import {RightMenu} from "../../components/menu/RightMenu";
 import {LeftMenu} from "../../components/menu/LeftMenu";
 import {Container} from "../../components/Container";
+import {theme} from "../../styles/Theme";
 
 export const Header = () => {
     return (
@@ -16,7 +17,9 @@ export const Header = () => {
 };
 
 const StyledHeader = styled.header`
-    & div {
-        position: relative;
+    @media ${theme.media.tablet} {
+        & div {
+            position: relative;
+        } 
     }
 `

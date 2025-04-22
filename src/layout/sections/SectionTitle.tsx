@@ -23,8 +23,8 @@ const StyledSectionTitle = styled.div`
 `
 
 const Title = styled.h2`
+    font-weight: 700;
     font-size: 32px;
-    font-weight: bold;
 `
 
 const Description = styled.p`

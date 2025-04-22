@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
 import {Button} from "../../../../components/button/Button";
-import {theme} from "../../../../styles/Theme";
 
 
 export const PortfolioItem = (props: {imgItems: Array<string>}) => {
@@ -24,12 +23,14 @@ export const PortfolioItem = (props: {imgItems: Array<string>}) => {
 const StyledPortfolioItem = styled.div`
     ul {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         flex-wrap: wrap;
-
-        @media ${theme.media.tablet} {
-            justify-content: center;
-            gap: 20px;
+        gap: 20px;
+        
+        li {
+            max-width: 310px;
+            width: 260px;
+            flex-grow: 1;
         }
     }
 
