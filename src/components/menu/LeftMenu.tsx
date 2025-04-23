@@ -44,9 +44,10 @@ const StyledLeftMenu = styled.aside`
     left: 0;
     top: 0;
     background-color: ${theme.colors.primaryBg};
+    display: none;
 
-    @media ${theme.media.tablet} {
-        display: none;
+    @media ${theme.media.desktop} {
+        display: block;
     }
 `
 

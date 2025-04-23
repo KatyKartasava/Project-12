@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af999f32-5135-41e5-b7ca-4ca230bba785" name="Changes" comment="Add mixin">
+    <list default="true" id="af999f32-5135-41e5-b7ca-4ca230bba785" name="Changes" comment="Responsive portfolio">
+      <change afterPath="$PROJECT_DIR$/src/layout/header/mobileMenu/MobileMenu.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Container.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Container.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menu/LeftMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/LeftMenu.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/sections/SectionTitle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/SectionTitle.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/sections/portfolio/portfolioItem/PortfolioItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/portfolio/portfolioItem/PortfolioItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/sections/portfolio/tabMenu/TabMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/portfolio/tabMenu/TabMenu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Global.styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Global.styled.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/services/Services.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/services/Services.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Theme.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +22,8 @@
       <list>
         <option value="CSS File" />
         <option value="tsconfig.json" />
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -145,7 +143,8 @@
       <workItem from="1745147568793" duration="4072000" />
       <workItem from="1745219928367" duration="3585000" />
       <workItem from="1745257778811" duration="3393000" />
-      <workItem from="1745338284091" duration="7262000" />
+      <workItem from="1745338284091" duration="9288000" />
+      <workItem from="1745425687341" duration="5664000" />
     </task>
     <task id="LOCAL-00001" summary="Add mixin">
       <option name="closed" value="true" />
@@ -155,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745259960579</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Responsive portfolio">
+      <option name="closed" value="true" />
+      <created>1745348724927</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745348724927</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +171,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="My code project-12. HTML + Css" />
     <MESSAGE value="Add mixin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add mixin" />
+    <MESSAGE value="Responsive portfolio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Responsive portfolio" />
   </component>
 </project>

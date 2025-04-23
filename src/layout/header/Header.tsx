@@ -4,12 +4,14 @@ import {RightMenu} from "../../components/menu/RightMenu";
 import {LeftMenu} from "../../components/menu/LeftMenu";
 import {Container} from "../../components/Container";
 import {theme} from "../../styles/Theme";
+import {MobileMenu} from "./mobileMenu/MobileMenu";
 
 export const Header = () => {
     return (
         <StyledHeader>
             <Container>
                 <LeftMenu />
+                <MobileMenu />
                 <RightMenu />
             </Container>
         </StyledHeader>
@@ -17,7 +19,7 @@ export const Header = () => {
 };
 
 const StyledHeader = styled.header`
-    @media ${theme.media.tablet} {
+    @media ${theme.media.tablet} {        
         & div {
             position: relative;
         } 
