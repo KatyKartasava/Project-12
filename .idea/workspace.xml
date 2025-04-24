@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af999f32-5135-41e5-b7ca-4ca230bba785" name="Changes" comment="Responsive portfolio">
-      <change afterPath="$PROJECT_DIR$/src/layout/header/mobileMenu/MobileMenu.tsx" afterDir="false" />
+    <list default="true" id="af999f32-5135-41e5-b7ca-4ca230bba785" name="Changes" comment="Add Burger Menu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/menu/LeftMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/LeftMenu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/sections/services/Services.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/services/Services.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Theme.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menu/RightMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/RightMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/main/Main.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +142,8 @@
       <workItem from="1745219928367" duration="3585000" />
       <workItem from="1745257778811" duration="3393000" />
       <workItem from="1745338284091" duration="9288000" />
-      <workItem from="1745425687341" duration="5664000" />
+      <workItem from="1745425687341" duration="5952000" />
+      <workItem from="1745467967137" duration="3936000" />
     </task>
     <task id="LOCAL-00001" summary="Add mixin">
       <option name="closed" value="true" />
@@ -162,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745348724927</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add Burger Menu">
+      <option name="closed" value="true" />
+      <created>1745431729935</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1745431729935</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +179,7 @@
     <MESSAGE value="My code project-12. HTML + Css" />
     <MESSAGE value="Add mixin" />
     <MESSAGE value="Responsive portfolio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Responsive portfolio" />
+    <MESSAGE value="Add Burger Menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Burger Menu" />
   </component>
 </project>

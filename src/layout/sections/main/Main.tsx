@@ -94,7 +94,7 @@ const TextMain = styled.div`
     }
 `
 
-const Name = styled.span`
+export const Name = styled.span`
     font-size: 48px;
     font-weight: 700;
     color: ${theme.colors.fontPrimary};
@@ -102,7 +102,7 @@ const Name = styled.span`
     text-align: left;
 `
 
-const MainTitle = styled.h1`
+export const MainTitle = styled.h1`
     font-size: 48px;
     font-weight: 700;
     color: ${theme.colors.fontPrimary};

@@ -49,7 +49,7 @@ const StyledRightMenu = styled.nav`
         background-color: rgba(255, 255, 255, 0.7);
     }
 `
-const ListItem = styled.ul`
+export const ListItem = styled.ul`
     li + li {
         margin-top: 43px;
 
@@ -64,7 +64,7 @@ const ListItem = styled.ul`
     }
 `
 
-const Item = styled.li`
+export const Item = styled.li`
     position: relative;
     z-index: 1;
     text-align: center;
@@ -86,7 +86,7 @@ const Item = styled.li`
     }
 `
 
-const Link = styled.a`
+export const Link = styled.a`
     display: block;
 `
 
