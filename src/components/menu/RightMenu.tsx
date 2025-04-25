@@ -87,7 +87,7 @@ export const Item = styled.li`
 `
 
 export const Link = styled.a`
-    display: block;
+    display: flex;
 `
 
 const ThemeButton = styled.button`

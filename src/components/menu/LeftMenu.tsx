@@ -27,6 +27,12 @@ export const LeftMenu = () => {
                         <Item><Link><Icon iconId={'iconDribble'} width={'14'} height={'14'} viewBox={'0 0 14 14'} /></Link></Item>
                     </ListItem>
                 </Social>
+                <PrivateInfo>
+                    <p>Age: <span>24</span></p>
+                    <p>Residence: <span>BD</span></p>
+                    <p>Freelance: <span>Available</span></p>
+                    <p>Address: <span>Dhaka,Bangladesh</span></p>
+                </PrivateInfo>
                 <ul>
                     <li>Private information</li>
                     <li>Languages</li>
@@ -71,7 +77,7 @@ const StyledLeftMenu = styled.aside`
         color: ${theme.colors.fontText};
         font-size: 15px;
         font-weight: 400;
-        margin-bottom: 15px;
+        margin-bottom: 20px;
     }
 
     @media ${theme.media.desktop} {
@@ -102,6 +108,18 @@ const Photo = styled.img`
 `
 
 const Social = styled.div`
+    position: relative;
+    padding-bottom: 24px;
+    
+    &::after {
+        content: "";
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        border: 1.5px solid rgb(240, 240, 246);
+        position: absolute;
+    }
+    
     ${ListItem} {
         display: flex;
         flex-direction: row;
@@ -117,5 +135,20 @@ const Social = styled.div`
             height: 24px;
             background-color: ${theme.colors.accent};
         }
+    }
+`
+
+const PrivateInfo = styled.div`
+    position: relative;
+    padding-bottom: 24px;
+    margin-top: 25px;
+
+    &::after {
+        content: "";
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        border: 1.5px solid rgb(240, 240, 246);
+        position: absolute;
     }
 `

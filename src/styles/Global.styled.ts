@@ -33,6 +33,7 @@ export const GlobalStyled = createGlobalStyle `
     a {
         text-decoration: none;
         color: ${theme.colors.fontPrimary};
+        cursor: pointer;
     }
 
     ul {

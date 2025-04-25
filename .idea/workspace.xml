@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af999f32-5135-41e5-b7ca-4ca230bba785" name="Changes" comment="Add Burger Menu">
+    <list default="true" id="af999f32-5135-41e5-b7ca-4ca230bba785" name="Changes" comment="Correct LeftMenu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/menu/LeftMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/LeftMenu.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/menu/RightMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/RightMenu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/sections/main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/main/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Global.styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Global.styled.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +143,8 @@
       <workItem from="1745257778811" duration="3393000" />
       <workItem from="1745338284091" duration="9288000" />
       <workItem from="1745425687341" duration="5952000" />
-      <workItem from="1745467967137" duration="3936000" />
+      <workItem from="1745467967137" duration="4091000" />
+      <workItem from="1745592594737" duration="1478000" />
     </task>
     <task id="LOCAL-00001" summary="Add mixin">
       <option name="closed" value="true" />
@@ -169,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745431729935</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Correct LeftMenu">
+      <option name="closed" value="true" />
+      <created>1745473500587</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1745473500587</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +189,7 @@
     <MESSAGE value="Add mixin" />
     <MESSAGE value="Responsive portfolio" />
     <MESSAGE value="Add Burger Menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Burger Menu" />
+    <MESSAGE value="Correct LeftMenu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correct LeftMenu" />
   </component>
 </project>
