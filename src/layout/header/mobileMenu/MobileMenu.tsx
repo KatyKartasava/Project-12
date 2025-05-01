@@ -13,10 +13,10 @@ import {Button} from "../../../components/button/Button";
 export const MobileMenu = () => {
     return (
         <StyledMobileMenu>
-            <BurgerButton isOpen={false}>
+            <BurgerButton isOpen={true}>
                 <span></span>
             </BurgerButton>
-            <MobileMenuPopup isOpen={false}>
+            <MobileMenuPopup isOpen={true}>
                 <FlexWrapper direction={'column'} justifyContent={'space-between'} alignItems={'center'}>
                     <PhotoWrapper>
                         <Photo src={photo} alt="Photo Rayan Adlardard"/>
@@ -83,11 +83,45 @@ const StyledMobileMenu = styled.aside`
     @media ${theme.media.tablet} {
         display: block;
     }
+    
+    ${FlexWrapper} {
+        padding: 50px 46px 25px 40px;
+    }
+    
+    ${Name} {
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+    
+    ${MainTitle} {
+        color: ${theme.colors.fontText};
+        font-size: 15px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    
+    ${Button} {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 17px;
+        text-align: left;
+        text-transform: uppercase;
+        padding: 10px 0 10px 40px;
+        background-color: ${theme.colors.accent};
+        margin-top: 25px;
+        width: 100%;
+        
+        svg {
+            margin-left: 20px;
+        }
+    }
 `
 
 const BurgerButton = styled.button<{isOpen: boolean}>`
     position: fixed;
-    left: 31px;
+    right: 50px;
     top: 35px;
     
     span {
