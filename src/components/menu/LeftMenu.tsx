@@ -105,7 +105,7 @@ const StyledLeftMenu = styled.aside`
     }
 `
 
-const PhotoWrapper = styled.div`
+export const PhotoWrapper = styled.div`
     position: relative;
     
     &::after {
@@ -127,7 +127,7 @@ const Photo = styled.img`
     object-fit: cover;
 `
 
-const Block = styled.div`
+export const Block = styled.div`
     position: relative;
     padding-bottom: 24px;
     width: 100%;
@@ -136,7 +136,12 @@ const Block = styled.div`
         width: 100%;
         cursor: pointer;
         overflow: hidden;
-    }    
+        margin-top: 5px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+    }  
+    
     
     input[type="range"] {
         appearance: none;

@@ -68,6 +68,7 @@ const StyledContact = styled.section`
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        column-gap: 10px;
 
         @media ${theme.media.mobile} {
             flex-direction: column;
@@ -83,6 +84,7 @@ const StyledContactForm = styled.div`
 const StyledContactInformation = styled.div`
     max-width: 370px;
     width: 100%;
+    flex-grow: 1;
 
     @media ${theme.media.mobile} {
         margin-top: 66px;
@@ -170,5 +172,6 @@ const ContactInfo = styled.div`
         background-color: ${theme.colors.primaryBg};
         font-size: 18px;
         font-weight: 500;
+        padding: 0;
     }
 `

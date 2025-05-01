@@ -2,6 +2,13 @@ import React from 'react';
 import styled, {css} from "styled-components";
 import {theme} from "../../../styles/Theme";
 import {Range} from "../../../components/range/Range";
+import {FlexWrapper} from "../../../components/FlexWrapper";
+import {Block, Key, PhotoWrapper, Value} from "../../../components/menu/LeftMenu";
+import photo from '../../../assets/images/Profile.jpg';
+import {MainTitle, Name} from "../../sections/main/Main";
+import {Item, Link, ListItem} from "../../../components/menu/RightMenu";
+import {Icon} from "../../../components/icon/Icon";
+import {Button} from "../../../components/button/Button";
 
 export const MobileMenu = () => {
     return (
@@ -9,33 +16,54 @@ export const MobileMenu = () => {
             <BurgerButton isOpen={true}>
                 <span></span>
             </BurgerButton>
-            <MobileMenuPopup isOpen={true}>
-                <ul>
-                    <li>
-
-                        <h4>Rayan Adlardard</h4>
-                        <p>Font-end Developer</p>
-                    </li>
-                    <li>Social</li>
-                    <li>Private information</li>
-                    <li>Languages</li>
-                    <li>Skills</li>
-                    <li>Extra Skills</li>
-                </ul>
-                <div>
-                    <h4>Languages</h4>
-                    <Range name={"Bangla"} value={100}/>
-                    <Range name={"English"} value={80}/>
-                    <Range name={"Spanish"} value={60}/>
-                </div>
-                <div>
-                    <h4>Skills</h4>
-                    <Range name={"Html"} value={90}/>
-                    <Range name={"CSS"} value={85}/>
-                    <Range name={"JS"} value={80}/>
-                    <Range name={"PHP"} value={75}/>
-                    <Range name={"WordPress"} value={85}/>
-                </div>
+            <MobileMenuPopup isOpen={false}>
+                <FlexWrapper direction={'column'} justifyContent={'space-between'} alignItems={'center'}>
+                    <PhotoWrapper>
+                        <Photo src={photo} alt="Photo Rayan Adlardard"/>
+                    </PhotoWrapper>
+                    <Name>Rayan Adlardard</Name>
+                    <MainTitle>Font-end Developer</MainTitle>
+                    <Block className="Social">
+                        <ListItem>
+                            <Item><Link><Icon iconId={'iconFacebook'} width={'14'} height={'14'} viewBox={'0 0 14 14'}/></Link></Item>
+                            <Item><Link><Icon iconId={'iconInstagram'} width={'14'} height={'14'} viewBox={'0 0 14 14'} /></Link></Item>
+                            <Item><Link><Icon iconId={'iconTwitter'} width={'14'} height={'14'} viewBox={'0 0 14 14'} /></Link></Item>
+                            <Item><Link><Icon iconId={'iconLinkedin'} width={'14'} height={'14'} viewBox={'0 0 14 14'} /></Link></Item>
+                            <Item><Link><Icon iconId={'iconYoutube'} width={'14'} height={'14'} viewBox={'0 0 14 14'} /></Link></Item>
+                            <Item><Link><Icon iconId={'iconDribble'} width={'14'} height={'14'} viewBox={'0 0 14 14'} /></Link></Item>
+                        </ListItem>
+                    </Block>
+                    <Block className="PrivateInfo">
+                        <p><Key>Age:</Key> <Value>24</Value></p>
+                        <p><Key>Residence:</Key> <Value>BD</Value></p>
+                        <p><Key>Freelance:</Key> <Value className="accent">Available</Value></p>
+                        <p><Key>Address:</Key> <Value>Dhaka,Bangladesh</Value></p>
+                    </Block>
+                    <Block className="Languages">
+                        <h4>Languages</h4>
+                        <Range name={"Bangla"} value={100} type={"range"} />
+                        <Range name={"English"} value={80} type={"range"} />
+                        <Range name={"Spanish"} value={60} type={"range"} />
+                    </Block>
+                    <Block className="Skills">
+                        <h4>Skills</h4>
+                        <Range name={"Html"} value={90} type={"range"} />
+                        <Range name={"CSS"} value={85} type={"range"} />
+                        <Range name={"JS"} value={80} type={"range"} />
+                        <Range name={"PHP"} value={75} type={"range"} />
+                        <Range name={"WordPress"} value={85} type={"range"} />
+                    </Block>
+                    <Block className="ExtraSkills">
+                        <h4>Extra Skills</h4>
+                        <Range name={"Bootstrap, Materialize"} type={"checkbox"} />
+                        <Range name={"Stylus, Sass, Less"} type={"checkbox"} />
+                        <Range name={"Gulp, Webpack, Grunt"} type={"checkbox"} />
+                        <Range name={"GIT Knowledge"} type={"checkbox"} />
+                    </Block>
+                    <Button>Download CV
+                        <Icon iconId={'download'} />
+                    </Button>
+                </FlexWrapper>
             </MobileMenuPopup>
         </StyledMobileMenu>
     );
