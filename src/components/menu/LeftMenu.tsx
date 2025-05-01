@@ -78,14 +78,14 @@ const StyledLeftMenu = styled.aside`
         font-size: 18px;
         font-weight: 500;
         margin-top: 30px;
-        margin-bottom: 15px;
+        margin-bottom: 18px;
     }
     
     ${MainTitle} {
         color: ${theme.colors.fontText};
         font-size: 15px;
         font-weight: 400;
-        margin-bottom: 20px;
+        margin-bottom: 24px;
     }
     
     ${Button} {
@@ -132,6 +132,11 @@ export const Block = styled.div`
     padding-bottom: 24px;
     width: 100%;
     
+    label {
+        display: flex;
+        justify-content: space-between;
+    }
+    
     input {
         width: 100%;
         cursor: pointer;
@@ -141,7 +146,6 @@ export const Block = styled.div`
         display: flex;
         flex-direction: column;
     }  
-    
     
     input[type="range"] {
         appearance: none;
@@ -197,7 +201,6 @@ export const Block = styled.div`
     
     &.PrivateInfo {
         position: relative;
-        padding-bottom: 14px;
         margin-top: 25px;
         width: 100%;
         color: ${theme.colors.fontPrimary};
@@ -214,7 +217,7 @@ export const Block = styled.div`
         left: 0;
         bottom: 0;
         width: 100%;
-        border: 1.5px solid rgb(240, 240, 246);
+        border: 2px solid rgb(240, 240, 246);
         position: absolute;
     }
     

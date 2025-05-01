@@ -28,6 +28,8 @@ export const GlobalStyled = createGlobalStyle `
         font-weight: 400;
 
         background-color: ${theme.colors.secondaryBg};
+        
+        min-width: 375px;
     }
 
     a {

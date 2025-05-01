@@ -106,7 +106,7 @@ export const MainTitle = styled.h1`
     font-size: 48px;
     font-weight: 700;
     color: ${theme.colors.fontPrimary};
-    line-height: 123%;
+    line-height: 123.6%;
 
     span {
         color: ${theme.colors.accent};
