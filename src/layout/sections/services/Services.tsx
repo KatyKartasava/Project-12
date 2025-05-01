@@ -31,6 +31,12 @@ export const Services = () => {
 
 const StyledServices = styled.section`
     text-align: center;
+    
+    ${FlexWrapper} {
+        @media ${theme.media.tablet} {
+            justify-content: center;
+        }
+    }
 `
 
 const StyledLastService = styled.div`

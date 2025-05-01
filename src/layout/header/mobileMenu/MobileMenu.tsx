@@ -13,7 +13,7 @@ import {Button} from "../../../components/button/Button";
 export const MobileMenu = () => {
     return (
         <StyledMobileMenu>
-            <BurgerButton isOpen={true}>
+            <BurgerButton isOpen={false}>
                 <span></span>
             </BurgerButton>
             <MobileMenuPopup isOpen={false}>
