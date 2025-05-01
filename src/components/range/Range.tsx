@@ -1,15 +1,16 @@
 import React from 'react';
 
 type Props = {
-    name: string;
-    value: number;
+    name: string,
+    value?: number,
+    type?: string
 };
 
 export const Range = (props: Props) => {
     return (
         <div>
-            <p>{props.name} <span>{props.value}%</span></p>
-            <input type="range" value={props.value} />
+            <label>{props.name} <span>{props.value}%</span></label>
+            <input type={props.type} value={props.value}/>
         </div>
     );
 };

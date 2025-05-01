@@ -4,6 +4,8 @@ import {SectionTitle} from "../SectionTitle";
 import {Button} from "../../../components/button/Button";
 import {Container} from "../../../components/Container";
 import {theme} from "../../../styles/Theme";
+import {Icon} from "../../../components/icon/Icon";
+import {Key, Value} from "../../../components/menu/LeftMenu";
 
 export const ContactForm = () => {
     return (
@@ -25,6 +27,36 @@ export const ContactForm = () => {
                 </StyledContactForm>
                 <StyledContactInformation>
                     <SectionTitle title={'Contact information'} description={''} />
+                    <Card>
+                        <IconWrapper>
+                            <Icon iconId={'location'} width={'18'} height={'18'} viewBox={'0 0 18 18'}/>
+                        </IconWrapper>
+                        <ContactInfo>
+                            <p><Key>Country:</Key> <Value>Bangladesh</Value></p>
+                            <p><Key>City:</Key> <Value>Dhaka</Value></p>
+                            <p><Key>Street:</Key> <Value>35 vhatara, Badda</Value></p>
+                        </ContactInfo>
+                    </Card>
+                    <Card>
+                        <IconWrapper>
+                            <Icon iconId={'mail'} width={'18'} height={'18'} viewBox={'0 0 18 18'}/>
+                        </IconWrapper>
+                        <ContactInfo>
+                            <p><Key>Email:</Key> <Value>youremail@gmail.com</Value></p>
+                            <p><Key>Skype:</Key> <Value>@yourusername</Value></p>
+                            <p><Key>Telegram:</Key> <Value>@yourusername</Value></p>
+                        </ContactInfo>
+                    </Card>
+                    <Card>
+                        <IconWrapper>
+                            <Icon iconId={'mobile'} width={'18'} height={'18'} viewBox={'0 0 18 18'}/>
+                        </IconWrapper>
+                        <ContactInfo>
+                            <p><Key>Support services:</Key> <Value>15369</Value></p>
+                            <p><Key>Office:</Key> <Value>+58 (021)356 587 235</Value></p>
+                            <p><Key>Personal:</Key> <Value>+58 (021)356 587 235</Value></p>
+                        </ContactInfo>
+                    </Card>
                 </StyledContactInformation>
             </Container>
         </StyledContact>
@@ -64,6 +96,15 @@ const StyledForm = styled.form`
     gap: 5px;
     background-color: white;
     padding: 25px 24px 25px 25px;
+    
+    label {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    
+    label:not(:first-of-type) {
+        padding-top: 25px;
+    }
 
     textarea {
         height: 210px;
@@ -88,4 +129,46 @@ const Field = styled.input`
     height: 50px;
     background: ${theme.colors.secondaryBg};
     border: none;
+`
+
+const Card = styled.div`
+    text-align: center;
+    padding: 38px 25px 2px 25px;
+    margin-bottom: 18px;
+    background-color: ${theme.colors.primaryBg};
+`
+
+const IconWrapper = styled.div`
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+
+    &::before {
+        content: "";
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background-color: ${theme.colors.accent};
+        border-radius: 50%;
+
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -10px;
+        z-index: -1;
+    }
+`
+
+const ContactInfo = styled.div`
+    p {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 14px;
+    }
+    
+    ${Key} {
+        background-color: ${theme.colors.primaryBg};
+        font-size: 18px;
+        font-weight: 500;
+    }
 `
