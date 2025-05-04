@@ -87,6 +87,7 @@ const StyledLeftMenu = styled.aside`
         font-size: 15px;
         font-weight: 400;
         margin-bottom: 24px;
+        letter-spacing: 0;
     }
     
     ${Button} {

@@ -34,6 +34,7 @@ const RecommendationStyled = styled.li`
     background-color: white;
     text-align: left;
     padding: 25px 21px 25px 25px;
+    flex-grow: 1;
 `
 const Title = styled.h3`
     padding: 17px 0 18px;

@@ -51,10 +51,10 @@ const ListRecommendation = styled.ul`
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    gap: 20px;
 
     @media ${theme.media.tablet} {
         justify-content: center;
-        gap: 20px;
     }
 `
 

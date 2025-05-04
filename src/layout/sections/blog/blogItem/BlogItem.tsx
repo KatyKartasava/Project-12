@@ -24,8 +24,8 @@ export const BlogItem = (props: BlogItemPropsType) => {
 
 const BlogItemStyled = styled.div`
     background-color: white;
-    max-width: 310px;
-    width: 100%;
+    width: 310px;
+    flex-grow: 1;
 
     ${Button} {
         width: 115px;
@@ -65,6 +65,7 @@ const Image = styled.img`
     width: 310px;
     height: 300px;
     object-fit: cover;
+    margin: 0 auto;
 `
 
 const TextWrapper = styled.div`

@@ -12,7 +12,7 @@ export const Main = () => {
     return (
         <StyledMain>
             <Container>
-                <FlexWrapper justifyContent={'space-around'} alignItems={'center'} wrap={'wrap'}>
+                <FlexWrapper justifyContent={'center'} alignItems={'center'} wrap={'wrap'}>
                     <TextMain>
                         <Name>I’m Rayan Adlrdard</Name>
                         <MainTitle><span>Front-end</span> Developer</MainTitle>
@@ -20,7 +20,9 @@ export const Main = () => {
                             lobortis. Natoque rutrum semper sed suspendisse nunc lectus.</Text>
                         <Button>HIRE ME</Button>
                     </TextMain>
-                    <Photo src={photo} alt="Photo Rayan Adlrdard"/>
+                    <WrapperPhoto>
+                        <Photo src={photo} alt="Photo Rayan Adlrdard"/>
+                    </WrapperPhoto>
                 </FlexWrapper>
             </Container>
         </StyledMain>
@@ -36,8 +38,11 @@ const StyledMain = styled.section`
 const TextMain = styled.div`
     max-width: 500px;
     width: 100%;
-    margin-top: 93px;
     margin-left: 60px;
+    margin-top: 20px;
+    
+    display: flex;
+    flex-direction: column;
 
     @media ${theme.media.tablet} {
         margin-top: 100px;
@@ -49,7 +54,6 @@ const TextMain = styled.div`
         padding: 16px 32px;
         background-color: ${theme.colors.accent};
         border-radius: 5px;
-        margin-bottom: 74px;
 
         font-size: 16px;
         font-weight: 500;
@@ -100,6 +104,7 @@ export const Name = styled.span`
     color: ${theme.colors.fontPrimary};
     line-height: 123.6%;
     text-align: left;
+    letter-spacing: 1.3px;
 `
 
 export const MainTitle = styled.h1`
@@ -107,9 +112,11 @@ export const MainTitle = styled.h1`
     font-weight: 700;
     color: ${theme.colors.fontPrimary};
     line-height: 123.6%;
+    letter-spacing: 1.3px;
 
     span {
         color: ${theme.colors.accent};
+        text-transform: none;
     }
 `
 
@@ -118,9 +125,16 @@ const Text = styled.p`
     font-weight: normal;
     max-width: 424px;
     width: 100%;
+    line-height: 24px;
 
-    margin-top: 18px;
-    margin-bottom: 25px;
+    padding-top: 18px;
+    padding-bottom: 40px;
+`
+
+const WrapperPhoto = styled.div`
+    max-width: 50%;
+    margin-top: 8px;
+    margin-right: 55px;
 `
 
 const Photo = styled.img`
@@ -128,7 +142,6 @@ const Photo = styled.img`
     width: 100%;
     height: 459px;
     object-fit: cover;
-    margin-top: 8px;
 
     @media ${theme.media.tablet} {
         margin-top: 52px;

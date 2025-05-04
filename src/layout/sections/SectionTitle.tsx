@@ -28,6 +28,8 @@ const Title = styled.h2`
 `
 
 const Description = styled.p`
-    margin-bottom: 50px;
-    margin-top: 25px;
+    margin-bottom: 45px;
+    margin-top: 30px;
+    
+    line-height: 24px;
 `

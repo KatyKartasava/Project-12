@@ -16,21 +16,19 @@ export type ServicePropsType = {
 export const Service = (props: ServicePropsType) => {
     return (
         <StyledService>
-            <FlexWrapper justifyContent={'center'} alignItems={'center'} direction={'column'}>
-                <Icon iconId={props.iconId} width={props.width} height={props.height} viewBox={props.viewBox} />
-                <ServiceTitle>{props.title}</ServiceTitle>
-                <ServiceText>{props.text}</ServiceText>
-            </FlexWrapper>
+            <Icon iconId={props.iconId} width={props.width} height={props.height} viewBox={props.viewBox} />
+            <ServiceTitle>{props.title}</ServiceTitle>
+            <ServiceText>{props.text}</ServiceText>
         </StyledService>
     );
 };
 
 const StyledService = styled.div`
     background-color: white;
-    max-width: 310px;
-    width: 100%;
-    margin-bottom: 20px;
-    min-height: 225px;
+    flex-grow: 1;
+    width: 310px;
+    height: 225px;
+    padding: 30px 25px 28px 25px;
     
     & svg {
         fill: ${theme.colors.accent};
@@ -38,7 +36,7 @@ const StyledService = styled.div`
 `
 
 const ServiceTitle = styled.h3`
-    margin: 25px 0 15px;
+    padding: 10px 0 15px;
 `
 
 const ServiceText = styled.p``

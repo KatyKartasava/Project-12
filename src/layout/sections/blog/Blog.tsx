@@ -32,9 +32,10 @@ export const Blog = () => {
 
 const StyledBlog = styled.section`
     ${FlexWrapper} {
+        gap: 20px;
+        
         @media ${theme.media.tablet} {
-            justify-content: center; 
-            gap: 20px;
+            justify-content: center;
         }
     }
 `

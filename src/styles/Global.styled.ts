@@ -22,7 +22,7 @@ export const GlobalStyled = createGlobalStyle `
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         color: ${theme.colors.fontText};
-        line-height: 123%;
+        line-height: 24px;
         text-transform: capitalize;
         font-size: 15px;
         font-weight: 400;
@@ -53,14 +53,19 @@ export const GlobalStyled = createGlobalStyle `
 
     h1, h2, h3, h4, h5, h6 {
         color: ${theme.colors.fontPrimary};
-    } 
-
-    section {
-        margin-bottom: 70px;
+        line-height: 123.6%;
     }
-
+    
+    section {
+        margin-top: 70px;
+    }
+    
     section:first-of-type {
-        margin-bottom: 138px;
+        margin-top: 0;
+    }
+    
+    section:nth-of-type(2) {
+        margin-top: 135px;
     }
 
     img {
