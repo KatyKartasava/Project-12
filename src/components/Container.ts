@@ -6,7 +6,6 @@ export const Container = styled.div`
     min-height: 100%;
     margin: 0 108px 0 305px;
     padding: 0 27px 0 30px;
-    overflow-x: auto;
     
     @media ${theme.media.tablet} {
         padding: 0 15px;

@@ -135,7 +135,7 @@ const Field = styled.input`
 
 const Card = styled.div`
     text-align: center;
-    padding: 38px 25px 2px 25px;
+    padding: 38px 25px 7px 25px;
     margin-bottom: 18px;
     background-color: ${theme.colors.primaryBg};
 `

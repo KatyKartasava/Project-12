@@ -30,6 +30,7 @@ export const Main = () => {
 };
 
 const StyledMain = styled.section`
+    
     div div {
         background-color: ${theme.colors.primaryBg};
     }
@@ -38,7 +39,7 @@ const StyledMain = styled.section`
 const TextMain = styled.div`
     max-width: 500px;
     width: 100%;
-    margin-left: 60px;
+    margin-left: 6px;
     margin-top: 20px;
     
     display: flex;
@@ -134,12 +135,11 @@ const Text = styled.p`
 const WrapperPhoto = styled.div`
     max-width: 50%;
     margin-top: 8px;
-    margin-right: 55px;
+    margin-left: 25px;
 `
 
 const Photo = styled.img`
-    max-width: 326px;
-    width: 100%;
+    width: 326px;
     height: 459px;
     object-fit: cover;
 

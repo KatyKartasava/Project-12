@@ -66,7 +66,7 @@ export const LeftMenu = () => {
 const StyledLeftMenu = styled.aside`
     width: 305px;
     position: absolute;
-    left: 0;
+    left: -305px;
     top: 0;
     background-color: ${theme.colors.primaryBg};
     line-height: 24px;

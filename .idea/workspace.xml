@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af999f32-5135-41e5-b7ca-4ca230bba785" name="Changes" comment="pixel perfect left menu">
+    <list default="true" id="af999f32-5135-41e5-b7ca-4ca230bba785" name="Changes" comment="pixel perfect main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Container.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Container.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/menu/LeftMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/LeftMenu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/sections/SectionTitle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/SectionTitle.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/sections/blog/Blog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/blog/Blog.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/sections/blog/blogItem/BlogItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/blog/blogItem/BlogItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menu/RightMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/RightMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/contactForm/ContactForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/contactForm/ContactForm.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/sections/main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/main/Main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/sections/recommendations/Recommendations.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/recommendations/Recommendations.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/sections/recommendations/recommendation/Recommendation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/recommendations/recommendation/Recommendation.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/sections/services/Services.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/services/Services.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/sections/services/service/Service.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/services/service/Service.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Global.styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Global.styled.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +150,7 @@
       <workItem from="1745592594737" duration="1815000" />
       <workItem from="1746084639308" duration="30209000" />
       <workItem from="1746168404780" duration="1704000" />
-      <workItem from="1746340447193" duration="12283000" />
+      <workItem from="1746340447193" duration="13904000" />
     </task>
     <task id="LOCAL-00001" summary="Add mixin">
       <option name="closed" value="true" />
@@ -260,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746342243057</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="pixel perfect main">
+      <option name="closed" value="true" />
+      <created>1746358298512</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1746358298512</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,6 +282,7 @@
     <MESSAGE value="mobile version" />
     <MESSAGE value="pixel perfect" />
     <MESSAGE value="pixel perfect left menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="pixel perfect left menu" />
+    <MESSAGE value="pixel perfect main" />
+    <option name="LAST_COMMIT_MESSAGE" value="pixel perfect main" />
   </component>
 </project>

@@ -19,9 +19,13 @@ export const Header = () => {
 };
 
 const StyledHeader = styled.header`
-    @media ${theme.media.tablet} {        
-        & div {
-            position: relative;
-        } 
+    ${Container} {
+        position: relative;
     }
+    
+    // @media ${theme.media.tablet} {        
+    //     & div {
+    //         position: relative;
+    //     } 
+    // }
 `

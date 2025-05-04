@@ -23,7 +23,7 @@ const StyledRightMenu = styled.nav`
     background-color: ${theme.colors.primaryBg};
 
     position: absolute;
-    right: 0;
+    right: -108px;
     width: 108px;
     height: 1315px;
     padding: 52px 41px 0 42px;
