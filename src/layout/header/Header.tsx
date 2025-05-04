@@ -1,17 +1,25 @@
 import React from 'react';
 import styled from "styled-components";
-import {RightMenu} from "../../components/menu/RightMenu";
-import {LeftMenu} from "../../components/menu/LeftMenu";
+import {RightMenu} from "./headerMenu/menu/RightMenu";
+import {DesktopMenu} from "./headerMenu/desktopMenu/DesktopMenu";
 import {Container} from "../../components/Container";
-import {theme} from "../../styles/Theme";
-import {MobileMenu} from "./mobileMenu/MobileMenu";
+import {MobileMenu} from "./headerMenu/mobileMenu/MobileMenu";
 
-export const Header = () => {
+export const Header: React.FC = () => {
+
+    const [width, setWidth] = React.useState(window.innerWidth);
+    const breakpoint = 1024;
+
+    React.useEffect( ()=> {
+        const handleWindowResize = () => setWidth(window.innerWidth);
+        window.addEventListener("resize", handleWindowResize);
+        return () => window.removeEventListener("resize", handleWindowResize);
+    }, []);
+
     return (
         <StyledHeader>
             <Container>
-                <LeftMenu />
-                <MobileMenu />
+                {width < breakpoint ? <MobileMenu /> : <DesktopMenu />}
                 <RightMenu />
             </Container>
         </StyledHeader>
@@ -22,10 +30,4 @@ const StyledHeader = styled.header`
     ${Container} {
         position: relative;
     }
-    
-    // @media ${theme.media.tablet} {        
-    //     & div {
-    //         position: relative;
-    //     } 
-    // }
 `

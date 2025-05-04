@@ -1,12 +1,12 @@
 import React from 'react';
 
-type Props = {
+type RangeProps = {
     name: string,
     value?: number,
     type?: string
 };
 
-export const Range = (props: Props) => {
+export const Range: React.FC<RangeProps> = (props: RangeProps) => {
     return (
         <div>
             <label>{props.name} <span>{props.value}%</span></label>

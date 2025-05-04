@@ -1,19 +1,18 @@
 import React from 'react';
 import styled from "styled-components";
-import {Icon} from "../icon/Icon";
-import {theme} from "../../styles/Theme";
+import {Icon} from "../../../../components/icon/Icon";
+import {theme} from "../../../../styles/Theme";
 
-export const RightMenu = () => {
+const listItems = ['home', 'services', 'cv', 'portfolio', 'blog', 'contact'];
+
+export const RightMenu: React.FC = () => {
     return (
         <StyledRightMenu>
             <ThemeButton><Icon iconId={'contrast'} width={'30'} height={'30'} viewBox={'0 0 30 30'}/></ThemeButton>
             <ListItem>
-                <Item><Link href=""><Icon iconId={'home'} width={'18'} height={'18'} viewBox={'0 0 18 18'} /></Link></Item>
-                <Item><Link href=""><Icon iconId={'services'} width={'18'} height={'18'} viewBox={'0 0 18 18'} /></Link></Item>
-                <Item><Link href=""><Icon iconId={'cv'} width={'18'} height={'18'} viewBox={'0 0 18 18'} /></Link></Item>
-                <Item><Link href=""><Icon iconId={'portfolio'} width={'18'} height={'18'} viewBox={'0 0 18 18'} /></Link></Item>
-                <Item><Link href=""><Icon iconId={'blog'} width={'18'} height={'18'} viewBox={'0 0 18 18'} /></Link></Item>
-                <Item><Link href=""><Icon iconId={'contact'} width={'18'} height={'18'} viewBox={'0 0 18 18'} /></Link></Item>
+                {listItems.map((item, index) => (
+                    <Item><Link href=""><Icon iconId={item} width={'18'} height={'18'} viewBox={'0 0 18 18'} /></Link></Item>
+                ))}
             </ListItem>
         </StyledRightMenu>
     );

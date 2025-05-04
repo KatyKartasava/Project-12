@@ -1,17 +1,38 @@
 import React from 'react';
 import styled from "styled-components";
-import photo from '../../assets/images/Profile.jpg';
-import {Range} from "../range/Range";
-import {theme} from "../../styles/Theme";
-import {FlexWrapper} from "../FlexWrapper";
-import {MainTitle, Name} from "../../layout/sections/main/Main";
-import {Icon} from "../icon/Icon";
-import {Item, Link, ListItem} from "./RightMenu";
-import {Button} from "../button/Button";
+import photo from '../../../../assets/images/Profile.jpg';
+import {Range} from "../../../../components/range/Range";
+import {theme} from "../../../../styles/Theme";
+import {FlexWrapper} from "../../../../components/FlexWrapper";
+import {MainTitle, Name} from "../../../sections/main/Main";
+import {Icon} from "../../../../components/icon/Icon";
+import {Item, Link, ListItem} from "../menu/RightMenu";
+import {Button} from "../../../../components/button/Button";
 
-export const LeftMenu = () => {
+const listItemsIcon = ['iconFacebook', 'iconInstagram', 'iconTwitter', 'iconLinkedin', 'iconYoutube', 'iconDribble'];
+const privatInfo = [
+    {name: "Age", value: "24"},
+    {name: "Residence", value: "BD"},
+    {name: "Freelance", value: "Available"},
+    {name: "Address", value: "Dhaka,Bangladesh"}
+];
+const languages = [
+    {name: "Bangla", value: 100},
+    {name: "English", value: 80},
+    {name: "Spanish", value: 60}
+];
+const skills = [
+    {name: "Html", value: 90},
+    {name: "CSS", value: 85},
+    {name: "JS", value: 80},
+    {name: "PHP", value: 75},
+    {name: "WordPress", value: 85}
+];
+const extraSkills = ["Bootstrap, Materialize", "Stylus, Sass, Less", "Gulp, Webpack, Grunt", "GIT Knowledge"];
+
+export const DesktopMenu: React.FC = () => {
     return (
-        <StyledLeftMenu>
+        <StyledDesktopMenu>
             <FlexWrapper direction={'column'} justifyContent={'space-between'} alignItems={'center'}>
                 <PhotoWrapper>
                     <Photo src={photo} alt="Photo Rayan Adlardard"/>
@@ -20,50 +41,47 @@ export const LeftMenu = () => {
                 <MainTitle>Font-end Developer</MainTitle>
                 <Block className="Social">
                     <ListItem>
-                        <Item><Link><Icon iconId={'iconFacebook'} width={'14'} height={'14'} viewBox={'0 0 14 14'}/></Link></Item>
-                        <Item><Link><Icon iconId={'iconInstagram'} width={'14'} height={'14'} viewBox={'0 0 14 14'} /></Link></Item>
-                        <Item><Link><Icon iconId={'iconTwitter'} width={'14'} height={'14'} viewBox={'0 0 14 14'} /></Link></Item>
-                        <Item><Link><Icon iconId={'iconLinkedin'} width={'14'} height={'14'} viewBox={'0 0 14 14'} /></Link></Item>
-                        <Item><Link><Icon iconId={'iconYoutube'} width={'14'} height={'14'} viewBox={'0 0 14 14'} /></Link></Item>
-                        <Item><Link><Icon iconId={'iconDribble'} width={'14'} height={'14'} viewBox={'0 0 14 14'} /></Link></Item>
+                        {listItemsIcon.map((i, index) => (
+                            <Item><Link><Icon iconId={i} key={index} width={'14'} height={'14'} viewBox={'0 0 14 14'}/></Link></Item>
+                        ))}
                     </ListItem>
                 </Block>
                 <Block className="PrivateInfo">
-                    <div><Key>Age:</Key> <Value>24</Value></div>
-                    <div><Key>Residence:</Key> <Value>BD</Value></div>
-                    <div><Key>Freelance:</Key> <Value className="accent">Available</Value></div>
-                    <div><Key>Address:</Key> <Value>Dhaka,Bangladesh</Value></div>
+                    <ul>
+                        {privatInfo.map((p, index) => (
+                            <li key={index}><span>{p.name}:</span> <span>{p.value}</span></li>
+                        ))}
+                    </ul>
                 </Block>
                 <Block className="Languages">
                     <h4>Languages</h4>
-                    <Range name={"Bangla"} value={100} type={"range"} />
-                    <Range name={"English"} value={80} type={"range"} />
-                    <Range name={"Spanish"} value={60} type={"range"} />
+                    {languages.map((l, index) => (
+                        <Range name={l.name} value={l.value} type={"range"} />
+                    ))}
                 </Block>
                 <Block className="Skills">
                     <h4>Skills</h4>
-                    <Range name={"Html"} value={90} type={"range"} />
-                    <Range name={"CSS"} value={85} type={"range"} />
-                    <Range name={"JS"} value={80} type={"range"} />
-                    <Range name={"PHP"} value={75} type={"range"} />
-                    <Range name={"WordPress"} value={85} type={"range"} />
+                    {skills.map((s, index) => (
+                        <Range name={s.name} value={s.value} type={"range"} />
+                    ))}
                 </Block>
                 <Block className="ExtraSkills">
                     <h4>Extra Skills</h4>
-                    <Range name={"Bootstrap, Materialize"} type={"checkbox"} />
-                    <Range name={"Stylus, Sass, Less"} type={"checkbox"} />
-                    <Range name={"Gulp, Webpack, Grunt"} type={"checkbox"} />
-                    <Range name={"GIT Knowledge"} type={"checkbox"} />
+                    <ul>
+                        {extraSkills.map((e, index) => (
+                            <li key={index}>{e}</li>
+                        ))}
+                    </ul>
                 </Block>
                 <Button>Download CV
                     <Icon iconId={'download'} />
                 </Button>
             </FlexWrapper>
-        </StyledLeftMenu>
+        </StyledDesktopMenu>
     );
 };
 
-const StyledLeftMenu = styled.aside`
+const StyledDesktopMenu = styled.aside`
     width: 305px;
     position: absolute;
     left: -305px;
@@ -176,13 +194,9 @@ export const Block = styled.div`
         box-shadow: -200px 0 0 200px ${theme.colors.accent};
         border: none;
     }
-        
-    input[type="checkbox"] {
-        display: none;
-    }
     
     &.ExtraSkills {
-        label {
+        li {
             padding-left: 30px;
             position: relative;
 
@@ -215,12 +229,21 @@ export const Block = styled.div`
         margin-top: 25px;
         width: 100%;
         color: ${theme.colors.fontPrimary};
+        
+        span:first-of-type {
+            background-color: ${theme.colors.accent};
+            padding: 0 6px;
+        }
 
-        div {
+        li {
             display: flex;
             justify-content: space-between;
             padding-bottom: 10px;
-        } 
+        }
+
+        li:nth-child(3) span:nth-child(2) {
+            color: #7EB942;
+        }
     }
     
     h4 {

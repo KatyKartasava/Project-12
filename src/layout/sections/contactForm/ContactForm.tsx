@@ -5,7 +5,7 @@ import {Button} from "../../../components/button/Button";
 import {Container} from "../../../components/Container";
 import {theme} from "../../../styles/Theme";
 import {Icon} from "../../../components/icon/Icon";
-import {Key, Value} from "../../../components/menu/LeftMenu";
+import {Key, Value} from "../../header/headerMenu/desktopMenu/DesktopMenu";
 
 export const ContactForm = () => {
     return (
@@ -68,10 +68,10 @@ const StyledContact = styled.section`
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        column-gap: 10px;
+        flex-wrap: wrap-reverse;
+        column-gap: 30px;
 
         @media ${theme.media.mobile} {
-            flex-direction: column;
             justify-content: center;
         }
     }
@@ -79,16 +79,14 @@ const StyledContact = styled.section`
 
 const StyledContactForm = styled.div`
     max-width: 570px;
-    width: 100%;
+    min-width: 345px;
+    flex-grow: 2;
 `
 const StyledContactInformation = styled.div`
     max-width: 370px;
-    width: 100%;
+    min-width: 255px;
     flex-grow: 1;
 
-    @media ${theme.media.mobile} {
-        margin-top: 66px;
-    }
 `
 
 const StyledForm = styled.form`
@@ -136,7 +134,8 @@ const Field = styled.input`
 const Card = styled.div`
     text-align: center;
     padding: 38px 25px 7px 25px;
-    margin-bottom: 18px;
+    column-gap: 18px;
+    
     background-color: ${theme.colors.primaryBg};
 `
 

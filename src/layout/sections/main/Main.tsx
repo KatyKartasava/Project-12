@@ -62,6 +62,8 @@ const TextMain = styled.div`
         text-align: left;
 
         position: relative;
+        
+        transition: all 0.5s ease-in;
 
         &::after {
             content: "";
@@ -83,7 +85,6 @@ const TextMain = styled.div`
 
         &:hover {
             width: 202px;
-            height: 64px;
             border-radius: 8px;
             color: ${theme.colors.primaryBg};
             font-size: 24px;
