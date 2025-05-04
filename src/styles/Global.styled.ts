@@ -22,7 +22,7 @@ export const GlobalStyled = createGlobalStyle `
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         color: ${theme.colors.fontText};
-        line-height: 24px;
+        line-height: 123%;
         text-transform: capitalize;
         font-size: 15px;
         font-weight: 400;

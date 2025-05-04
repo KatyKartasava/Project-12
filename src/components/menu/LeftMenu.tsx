@@ -29,10 +29,10 @@ export const LeftMenu = () => {
                     </ListItem>
                 </Block>
                 <Block className="PrivateInfo">
-                    <p><Key>Age:</Key> <Value>24</Value></p>
-                    <p><Key>Residence:</Key> <Value>BD</Value></p>
-                    <p><Key>Freelance:</Key> <Value className="accent">Available</Value></p>
-                    <p><Key>Address:</Key> <Value>Dhaka,Bangladesh</Value></p>
+                    <div><Key>Age:</Key> <Value>24</Value></div>
+                    <div><Key>Residence:</Key> <Value>BD</Value></div>
+                    <div><Key>Freelance:</Key> <Value className="accent">Available</Value></div>
+                    <div><Key>Address:</Key> <Value>Dhaka,Bangladesh</Value></div>
                 </Block>
                 <Block className="Languages">
                     <h4>Languages</h4>
@@ -69,6 +69,7 @@ const StyledLeftMenu = styled.aside`
     left: 0;
     top: 0;
     background-color: ${theme.colors.primaryBg};
+    line-height: 24px;
     
     ${FlexWrapper} {
         padding: 50px 46px 25px 40px;
@@ -96,7 +97,7 @@ const StyledLeftMenu = styled.aside`
         text-transform: uppercase;
         padding: 10px 0 10px 40px;
         background-color: ${theme.colors.accent};
-        margin-top: 25px;
+        margin-top: 40px;
         width: 100%;
         
         svg {
@@ -129,8 +130,17 @@ const Photo = styled.img`
 
 export const Block = styled.div`
     position: relative;
-    padding-bottom: 24px;
+    padding-bottom: 25px;
     width: 100%;
+
+    &::after {
+        content: "";
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        border: 2px solid rgb(240, 240, 246);
+        position: absolute;
+    }
     
     label {
         display: flex;
@@ -141,7 +151,7 @@ export const Block = styled.div`
         width: 100%;
         cursor: pointer;
         overflow: hidden;
-        margin-top: 5px;
+        margin-top: 1px;
         margin-bottom: 10px;
         display: flex;
         flex-direction: column;
@@ -159,7 +169,7 @@ export const Block = styled.div`
     input[type="range"]::-webkit-slider-thumb {
         appearance: none;
         border-radius: 30px;
-        height: 1px;
+        height: 2px;
         width: 20px;
         background-color: ${theme.colors.accent};
         box-shadow: -200px 0 0 200px ${theme.colors.accent};
@@ -205,28 +215,20 @@ export const Block = styled.div`
         width: 100%;
         color: ${theme.colors.fontPrimary};
 
-        p {
+        div {
             display: flex;
             justify-content: space-between;
             padding-bottom: 10px;
         } 
     }
     
-    &::after {
-        content: "";
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        border: 2px solid rgb(240, 240, 246);
-        position: absolute;
-    }
-    
     h4 {
-        margin-top: 25px;
+        margin-top: 26px;
         margin-bottom: 15px;
         
         font-size: 18px;
         font-weight: 500;
+        line-height: 123%;
     }
     
     ${ListItem} {
@@ -249,7 +251,7 @@ export const Block = styled.div`
 
 export const Key = styled.span`
     background-color: ${theme.colors.accent};
-    padding: 1px 6px;
+    padding: 0 6px;
 `
 
 export const Value = styled.span`
