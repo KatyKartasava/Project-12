@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af999f32-5135-41e5-b7ca-4ca230bba785" name="Changes" comment="changes Main">
-      <change afterPath="$PROJECT_DIR$/src/layout/header/Header_Styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/header/headerMenu/HeaderMenu_Styles.ts" afterDir="false" />
+    <list default="true" id="af999f32-5135-41e5-b7ca-4ca230bba785" name="Changes" comment="Refactoring Header">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/svg/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/svg/sprite.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Container.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Container.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/star/Star.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/star/Star.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/svg/ArrowButtonMain.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/header/headerMenu/HeaderMenu_Styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/headerMenu/HeaderMenu_Styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/header/headerMenu/desktopMenu/DesktopMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/headerMenu/desktopMenu/DesktopMenu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/header/headerMenu/menu/RightMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/headerMenu/rightMenu/RightMenu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/header/headerMenu/mobileMenu/MobileMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/headerMenu/mobileMenu/MobileMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/assets/images/svg/ArrowButtonMain.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/main/Main_Styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/main/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/main/assets/images/svg/ArrowButtonMain.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,11 +61,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Incubator\New start project\project-12\src\assets\images\svg" />
+      <recent name="D:\Incubator\New start project\project-12\src\assets\images" />
+      <recent name="D:\Incubator\New start project\project-12\src\assets" />
       <recent name="D:\Incubator\New start project\project-12\src\layout\header\headerMenu\desktopMenu" />
       <recent name="D:\Incubator\New start project\project-12\src\layout\header\headerMenu" />
-      <recent name="D:\Incubator\New start project\project-12\src\components\experience" />
-      <recent name="D:\Incubator\New start project\project-12\src\components" />
-      <recent name="D:\Incubator\New start project\project-12\src\layout\sections\portfolio\tabMenu" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
@@ -94,8 +91,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.deploy" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +151,8 @@
       <workItem from="1746084639308" duration="30209000" />
       <workItem from="1746168404780" duration="1704000" />
       <workItem from="1746340447193" duration="27008000" />
-      <workItem from="1746541429430" duration="9688000" />
+      <workItem from="1746541429430" duration="10855000" />
+      <workItem from="1746557869330" duration="624000" />
     </task>
     <task id="LOCAL-00001" summary="Add mixin">
       <option name="closed" value="true" />
@@ -300,7 +298,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746552438131</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Refactoring Header">
+      <option name="closed" value="true" />
+      <created>1746557192416</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1746557192416</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,6 +328,7 @@
     <MESSAGE value="changes" />
     <MESSAGE value="changes ContactForm" />
     <MESSAGE value="changes Main" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes Main" />
+    <MESSAGE value="Refactoring Header" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring Header" />
   </component>
 </project>

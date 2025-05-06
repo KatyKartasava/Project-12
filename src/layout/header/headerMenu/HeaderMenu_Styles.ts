@@ -1,8 +1,8 @@
 import styled, {css} from "styled-components";
 import {theme} from "../../../styles/Theme";
 import {FlexWrapper} from "../../../components/FlexWrapper";
-import {MainTitle, Name} from "../../sections/main/Main";
 import {Button} from "../../../components/button/Button";
+import {MainTitle, Name} from "../../sections/main/Main_Styles";
 
 const ListItem = styled.ul`
     li + li {

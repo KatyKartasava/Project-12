@@ -2,10 +2,10 @@ import React from 'react';
 import photo from '../../../../assets/images/Profile.jpg';
 import {Range} from "../../../../components/range/Range";
 import {FlexWrapper} from "../../../../components/FlexWrapper";
-import {MainTitle, Name} from "../../../sections/main/Main";
 import {Icon} from "../../../../components/icon/Icon";
 import {Button} from "../../../../components/button/Button";
-import {Item, Link, ListItem, S} from "../HeaderMenu_Styles";
+import {S} from "../HeaderMenu_Styles";
+import {MainTitle, Name} from "../../../sections/main/Main_Styles";
 
 const listItemsIcon = ['iconFacebook', 'iconInstagram', 'iconTwitter', 'iconLinkedin', 'iconYoutube', 'iconDribble'];
 const privatInfo = [
@@ -38,11 +38,11 @@ export const DesktopMenu: React.FC = () => {
                 <Name>Rayan Adlardard</Name>
                 <MainTitle>Font-end Developer</MainTitle>
                 <S.Block className="Social">
-                    <ListItem>
+                    <S.ListItem>
                         {listItemsIcon.map((i, index) => (
-                            <Item><Link><Icon iconId={i} key={index} width={'14'} height={'14'} viewBox={'0 0 14 14'}/></Link></Item>
+                            <S.Item><S.Link><Icon iconId={i} key={index} width={'14'} height={'14'} viewBox={'0 0 14 14'}/></S.Link></S.Item>
                         ))}
-                    </ListItem>
+                    </S.ListItem>
                 </S.Block>
                 <S.Block className="PrivateInfo">
                     <ul>
