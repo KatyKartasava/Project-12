@@ -4,10 +4,28 @@ import {SectionTitle} from "../SectionTitle";
 import {Button} from "../../../components/button/Button";
 import {Container} from "../../../components/Container";
 import {theme} from "../../../styles/Theme";
-import {Icon} from "../../../components/icon/Icon";
-import {Key, Value} from "../../header/headerMenu/desktopMenu/DesktopMenu";
+import {Card} from "../../../components/card/Card";
 
-export const ContactForm = () => {
+export const ContactForm: React.FC = () => {
+
+    const card1 = [
+        { name: "Country", value: "Bangladesh" },
+        { name: "City", value: "Dhaka" },
+        { name: "Street", value: "35 vhatara, Badda" }
+    ];
+
+    const card2=[
+        { name: "Email", value: "youremail@gmail.com" },
+        { name: "Skype", value: "@yourusername" },
+        { name: "Telegram", value: "@yourusername" }
+    ];
+
+    const card3= [
+        { name: "Support services", value: "15369" },
+        { name: "Office", value: "+58 (021)356 587 235" },
+        { name: "Personal", value: "+58 (021)356 587 235" }
+    ];
+
     return (
         <StyledContact>
             <Container>
@@ -27,36 +45,9 @@ export const ContactForm = () => {
                 </StyledContactForm>
                 <StyledContactInformation>
                     <SectionTitle title={'Contact information'} description={''} />
-                    <Card>
-                        <IconWrapper>
-                            <Icon iconId={'location'} width={'18'} height={'18'} viewBox={'0 0 18 18'}/>
-                        </IconWrapper>
-                        <ContactInfo>
-                            <p><Key>Country:</Key> <Value>Bangladesh</Value></p>
-                            <p><Key>City:</Key> <Value>Dhaka</Value></p>
-                            <p><Key>Street:</Key> <Value>35 vhatara, Badda</Value></p>
-                        </ContactInfo>
-                    </Card>
-                    <Card>
-                        <IconWrapper>
-                            <Icon iconId={'mail'} width={'18'} height={'18'} viewBox={'0 0 18 18'}/>
-                        </IconWrapper>
-                        <ContactInfo>
-                            <p><Key>Email:</Key> <Value>youremail@gmail.com</Value></p>
-                            <p><Key>Skype:</Key> <Value>@yourusername</Value></p>
-                            <p><Key>Telegram:</Key> <Value>@yourusername</Value></p>
-                        </ContactInfo>
-                    </Card>
-                    <Card>
-                        <IconWrapper>
-                            <Icon iconId={'mobile'} width={'18'} height={'18'} viewBox={'0 0 18 18'}/>
-                        </IconWrapper>
-                        <ContactInfo>
-                            <p><Key>Support services:</Key> <Value>15369</Value></p>
-                            <p><Key>Office:</Key> <Value>+58 (021)356 587 235</Value></p>
-                            <p><Key>Personal:</Key> <Value>+58 (021)356 587 235</Value></p>
-                        </ContactInfo>
-                    </Card>
+                    <Card iconId={'location'} cards={card1} />
+                    <Card iconId={'mail'} cards={card2} />
+                    <Card iconId={'mobile'} cards={card3} />
                 </StyledContactInformation>
             </Container>
         </StyledContact>
@@ -86,7 +77,6 @@ const StyledContactInformation = styled.div`
     max-width: 370px;
     min-width: 255px;
     flex-grow: 1;
-
 `
 
 const StyledForm = styled.form`
@@ -131,46 +121,3 @@ const Field = styled.input`
     border: none;
 `
 
-const Card = styled.div`
-    text-align: center;
-    padding: 38px 25px 7px 25px;
-    column-gap: 18px;
-    
-    background-color: ${theme.colors.primaryBg};
-`
-
-const IconWrapper = styled.div`
-    position: relative;
-    z-index: 1;
-    margin-bottom: 30px;
-
-    &::before {
-        content: "";
-        display: inline-block;
-        width: 40px;
-        height: 40px;
-        background-color: ${theme.colors.accent};
-        border-radius: 50%;
-
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        top: -10px;
-        z-index: -1;
-    }
-`
-
-const ContactInfo = styled.div`
-    p {
-        display: flex;
-        justify-content: space-between;
-        padding-bottom: 14px;
-    }
-    
-    ${Key} {
-        background-color: ${theme.colors.primaryBg};
-        font-size: 18px;
-        font-weight: 500;
-        padding: 0;
-    }
-`

@@ -134,9 +134,10 @@ const Text = styled.p`
 `
 
 const WrapperPhoto = styled.div`
-    max-width: 50%;
-    margin-top: 8px;
-    margin-left: 25px;
+    max-width: 100%;
+    padding-top: 8px;
+    //margin-left: 25px;
+    margin: 0 auto;
 `
 
 const Photo = styled.img`
