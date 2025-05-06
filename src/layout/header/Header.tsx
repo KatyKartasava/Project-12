@@ -1,9 +1,9 @@
 import React from 'react';
-import styled from "styled-components";
-import {RightMenu} from "./headerMenu/menu/RightMenu";
+import {RightMenu} from "./headerMenu/rightMenu/RightMenu";
 import {DesktopMenu} from "./headerMenu/desktopMenu/DesktopMenu";
 import {Container} from "../../components/Container";
 import {MobileMenu} from "./headerMenu/mobileMenu/MobileMenu";
+import {S} from "./Header_Styles";
 
 export const Header: React.FC = () => {
 
@@ -17,17 +17,13 @@ export const Header: React.FC = () => {
     }, []);
 
     return (
-        <StyledHeader>
+        <S.Header>
             <Container>
                 {width < breakpoint ? <MobileMenu /> : <DesktopMenu />}
                 <RightMenu />
             </Container>
-        </StyledHeader>
+        </S.Header>
     );
 };
 
-const StyledHeader = styled.header`
-    ${Container} {
-        position: relative;
-    }
-`
+

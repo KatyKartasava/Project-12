@@ -3,7 +3,7 @@ import {Icon} from "../icon/Icon";
 import styled from "styled-components";
 
 
-export const Star = () => {
+export const Star: React.FC = () => {
     return (
          <StyledStar>
              <Icon iconId={"star"} width={'17'} height={'17'} viewBox={'0 0 17 17'} />
