@@ -30,11 +30,6 @@ const StyledMobileMenu = styled.aside`
     top: 0;
     background-color: ${theme.colors.primaryBg};
     z-index: 999;
-    display: none;
-
-    @media ${theme.media.tablet} {
-        display: block;
-    }
     
     ${FlexWrapper} {
         padding: 50px 46px 25px 40px;

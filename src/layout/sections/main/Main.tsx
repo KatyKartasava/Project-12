@@ -39,15 +39,14 @@ const StyledMain = styled.section`
 const TextMain = styled.div`
     max-width: 500px;
     width: 100%;
-    margin-left: 6px;
-    margin-top: 20px;
+    padding-left: 60px;
+    padding-top: 20px;
     
     display: flex;
     flex-direction: column;
 
     @media ${theme.media.tablet} {
-        margin-top: 100px;
-        margin-left: 32px;
+        padding: 100px 32px 0;
     }
 
     button {
@@ -136,7 +135,6 @@ const Text = styled.p`
 const WrapperPhoto = styled.div`
     max-width: 100%;
     padding-top: 8px;
-    //margin-left: 25px;
     margin: 0 auto;
 `
 
