@@ -1,7 +1,6 @@
 import React from 'react';
 import photo from '../../../../assets/images/Profile.jpg';
 import {Range} from "../../../../components/range/Range";
-import {FlexWrapper} from "../../../../components/FlexWrapper";
 import {Icon} from "../../../../components/icon/Icon";
 import {Button} from "../../../../components/button/Button";
 import {S} from "../HeaderMenu_Styles";
@@ -31,7 +30,7 @@ const extraSkills = ["Bootstrap, Materialize", "Stylus, Sass, Less", "Gulp, Webp
 export const DesktopMenu: React.FC = () => {
     return (
         <S.DesktopMenu>
-            <FlexWrapper direction={'column'} justifyContent={'space-between'} alignItems={'center'}>
+            <S.FlexWrapper direction={'column'} justifyContent={'space-between'} alignItems={'center'}>
                 <S.PhotoWrapper>
                     <S.Photo src={photo} alt="Photo Rayan Adlardard"/>
                 </S.PhotoWrapper>
@@ -74,7 +73,7 @@ export const DesktopMenu: React.FC = () => {
                 <Button>Download CV
                     <Icon iconId={'download'} />
                 </Button>
-            </FlexWrapper>
+            </S.FlexWrapper>
         </S.DesktopMenu>
     );
 };

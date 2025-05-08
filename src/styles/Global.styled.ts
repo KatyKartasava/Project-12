@@ -12,8 +12,8 @@ export const GlobalStyled = createGlobalStyle `
 
     body {
         
-        /* max-width: 1440px;
-        width: 100%; */
+        max-width: 1440px;
+        width: 100%;
 
         margin: 0 auto;
         font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

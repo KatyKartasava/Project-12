@@ -48,7 +48,7 @@ const Link = styled.a`
 const DesktopMenu = styled.aside`
     width: 305px;
     position: absolute;
-    left: -305px;
+    left: 0;
     top: 0;
     background-color: ${theme.colors.primaryBg};
     line-height: 24px;
@@ -341,6 +341,7 @@ const MobileMenuPopup = styled.div<{isOpen: boolean}>`
     background-color: white;
     display: none;
     
+    
     ${props => props.isOpen && css <{isOpen: boolean}>`
         display: flex;
         flex-direction: column;
@@ -353,7 +354,7 @@ const RightMenu = styled.nav`
     background-color: ${theme.colors.primaryBg};
 
     position: absolute;
-    right: -108px;
+    right: 0;
     width: 108px;
     height: 1315px;
     padding: 52px 41px 0 42px;
@@ -391,6 +392,7 @@ const ThemeButton = styled.button`
 export const S = {
     DesktopMenu,
     PhotoWrapper,
+    FlexWrapper,
     Photo,
     Block,
     MobileMenu,
