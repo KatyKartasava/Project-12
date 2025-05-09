@@ -10,7 +10,7 @@ type EducationProps = {
     description: string
 };
 
-export const Experience = (props: EducationProps) => {
+export const Experience: React.FC<EducationProps> = (props: EducationProps) => {
     return (
         <StyledExperience>
             <RightPart>
