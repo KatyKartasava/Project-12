@@ -1,32 +1,18 @@
 import React from 'react';
-import styled from "styled-components";
 import {Link} from "../../../../components/link/Link";
+import {S} from "../Portfolio_Styles";
 
 export const TabMenu = (props: {menuItems: Array<string>}) => {
     return (
-        <StyledTabMenu>
+        <S.TabMenu>
             <ul>
                 {props.menuItems.map((item, index) => {
-                    return <ListItem key={index}>
+                    return <S.ListItem key={index}>
                         <Link href="">{item}</Link>
-                    </ListItem>;
+                    </S.ListItem>;
                 })}
             </ul>
-        </StyledTabMenu>
+        </S.TabMenu>
     );
 };
 
-const StyledTabMenu = styled.div`
-    margin-bottom: 50px;
-
-    ul {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        column-gap: 37px;
-    }
-`
-
-const ListItem = styled.li`
-    
-`

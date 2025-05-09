@@ -1,26 +1,11 @@
-import React from 'react';
 import styled from "styled-components";
-import {Button} from "../../../../components/button/Button";
+import {Button} from "../../../components/button/Button";
 
+const Portfolio = styled.section``
 
-export const PortfolioItem = (props: {imgItems: Array<string>}) => {
-    return (
-        <StyledPortfolioItem>
-            <ul>
-                {props.imgItems.map((imgItem, i) => {
-                    return (
-                        <ImageWrapper key={i}>
-                            <img src={imgItem} alt="Portfolio image" />
-                            <Button>+</Button>
-                        </ImageWrapper>
-                    )
-                })}
-            </ul>
-        </StyledPortfolioItem>
-    );
-};
+// Potfolio Item
 
-const StyledPortfolioItem = styled.div`
+const PortfolioItems = styled.div`
     ul {
         display: flex;
         justify-content: center;
@@ -70,3 +55,26 @@ const ImageWrapper = styled.li`
         }
     }
 `
+
+// Tab Menu
+
+const TabMenu = styled.div`
+    margin-bottom: 50px;
+
+    ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 37px;
+    }
+`
+
+const ListItem = styled.li``
+
+export const S = {
+    Portfolio,
+    PortfolioItems,
+    ImageWrapper,
+    TabMenu,
+    ListItem
+}

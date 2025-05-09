@@ -10,25 +10,23 @@ import img6 from "./../../../assets/images/modern-pink-alcohol-ink-business-card
 import img7 from "./../../../assets/images/place-your-design-here.jpg";
 import img8 from "./../../../assets/images/modern-business-brochure.jpg";
 import img9 from "./../../../assets/images/red-professional-business-branding-stationery-set.jpg";
-import {PortfolioItem} from "./portfolioItem/PortfolioItem";
+import {PortfolioItems} from "./portfolioItems/PortfolioItems";
 import {Container} from "../../../components/Container";
 import {TabMenu} from "./tabMenu/TabMenu";
+import {S} from "./Portfolio_Styles";
 
 const menuItems = ["All categories", "UI Design", "Web Templates", "Logo", "Branding"]
 const imgItems = [img1, img2, img3, img4, img5, img6, img7, img8, img9]
 
-export const Portfolio = () => {
+export const Portfolio: React.FC = () => {
     return (
-        <StyledPortfolio>
+        <S.Portfolio>
             <Container>
                 <SectionTitle title={'Portfolio'} description={'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum'} />
                 <TabMenu menuItems={menuItems} />
-                <PortfolioItem imgItems={imgItems} />
+                <PortfolioItems imgItems={imgItems} />
             </Container>
-        </StyledPortfolio>
+        </S.Portfolio>
     );
 };
 
-const StyledPortfolio = styled.section`
-    
-`
