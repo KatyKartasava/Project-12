@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af999f32-5135-41e5-b7ca-4ca230bba785" name="Changes" comment="Header" />
+    <list default="true" id="af999f32-5135-41e5-b7ca-4ca230bba785" name="Changes" comment="menu mobile center in mobile version">
+      <change afterPath="$PROJECT_DIR$/src/layout/footer/Footer_Styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/footer/Footer.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,8 +86,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -146,6 +149,7 @@
       <workItem from="1746541429430" duration="10855000" />
       <workItem from="1746557869330" duration="1126000" />
       <workItem from="1746721374814" duration="1464000" />
+      <workItem from="1746768182227" duration="494000" />
     </task>
     <task id="LOCAL-00001" summary="Add mixin">
       <option name="closed" value="true" />
@@ -315,7 +319,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746723558484</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="menu mobile center in mobile version">
+      <option name="closed" value="true" />
+      <created>1746768471782</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1746768471782</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,6 +352,7 @@
     <MESSAGE value="Refactoring Header" />
     <MESSAGE value="Refactoring Main" />
     <MESSAGE value="Header" />
-    <option name="LAST_COMMIT_MESSAGE" value="Header" />
+    <MESSAGE value="menu mobile center in mobile version" />
+    <option name="LAST_COMMIT_MESSAGE" value="menu mobile center in mobile version" />
   </component>
 </project>
