@@ -14,7 +14,8 @@ const EducationWrapper = styled.div`
             position: absolute;
             bottom: -15px;
             border: 1px solid rgb(240, 240, 246);
-            width: 901px;
+            max-width: 901px;
+            width: 100%;
             height: 0;
             left: 50%;
             transform: translate(-50%);

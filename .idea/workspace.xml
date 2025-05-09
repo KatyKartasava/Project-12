@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af999f32-5135-41e5-b7ca-4ca230bba785" name="Changes" comment="Refactoring Contact Form">
-      <change beforePath="$PROJECT_DIR$/src/layout/sections/blog/Blog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/blog/Blog.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/sections/education/Education.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/education/Education.tsx" afterDir="false" />
+    <list default="true" id="af999f32-5135-41e5-b7ca-4ca230bba785" name="Changes" comment="Refactoring Education">
+      <change afterPath="$PROJECT_DIR$/src/components/experience/Experience_Styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/experience/Experience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experience/Experience.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/education/Education_Styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/education/Education_Styles.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +154,7 @@
       <workItem from="1746541429430" duration="10855000" />
       <workItem from="1746557869330" duration="1126000" />
       <workItem from="1746721374814" duration="1464000" />
-      <workItem from="1746768182227" duration="2973000" />
+      <workItem from="1746768182227" duration="3891000" />
     </task>
     <task id="LOCAL-00001" summary="Add mixin">
       <option name="closed" value="true" />
@@ -354,7 +356,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746770085368</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Refactoring Education">
+      <option name="closed" value="true" />
+      <created>1746771458570</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1746771458570</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,6 +393,7 @@
     <MESSAGE value="Refactoring Footer" />
     <MESSAGE value="Refactoring Blog" />
     <MESSAGE value="Refactoring Contact Form" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring Contact Form" />
+    <MESSAGE value="Refactoring Education" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring Education" />
   </component>
 </project>
