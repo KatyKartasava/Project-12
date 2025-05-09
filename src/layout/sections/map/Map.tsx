@@ -3,7 +3,7 @@ import map from "../../../assets/images/map.png";
 import styled from "styled-components";
 import {Container} from "../../../components/Container";
 
-export const Map = () => {
+export const Map: React.FC = () => {
     return (
         <StyledMap>
             <Container>
