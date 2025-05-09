@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af999f32-5135-41e5-b7ca-4ca230bba785" name="Changes" comment="Refactoring Work History" />
+    <list default="true" id="af999f32-5135-41e5-b7ca-4ca230bba785" name="Changes" comment="Refactoring Portfolio section">
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/recommendations/Recommendations.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/recommendations/Recommendations.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,7 +151,7 @@
       <workItem from="1746541429430" duration="10855000" />
       <workItem from="1746557869330" duration="1126000" />
       <workItem from="1746721374814" duration="1464000" />
-      <workItem from="1746768182227" duration="4496000" />
+      <workItem from="1746768182227" duration="6063000" />
     </task>
     <task id="LOCAL-00001" summary="Add mixin">
       <option name="closed" value="true" />
@@ -367,15 +369,45 @@
       <option name="project" value="LOCAL" />
       <updated>1746772700237</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Refactoring Logo section">
+      <option name="closed" value="true" />
+      <created>1746773035002</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1746773035002</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Refactoring Map section">
+      <option name="closed" value="true" />
+      <created>1746773127086</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1746773127086</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Refactoring Portfolio section">
+      <option name="closed" value="true" />
+      <created>1746773753244</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1746773753244</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Refactoring Portfolio section">
+      <option name="closed" value="true" />
+      <created>1746773787729</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1746773787729</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="My code project-12. HTML + Css" />
-    <MESSAGE value="Add mixin" />
     <MESSAGE value="Responsive portfolio" />
     <MESSAGE value="Add Burger Menu" />
     <MESSAGE value="Correct LeftMenu" />
@@ -398,6 +430,9 @@
     <MESSAGE value="Refactoring Contact Form" />
     <MESSAGE value="Refactoring Education" />
     <MESSAGE value="Refactoring Work History" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring Work History" />
+    <MESSAGE value="Refactoring Logo section" />
+    <MESSAGE value="Refactoring Map section" />
+    <MESSAGE value="Refactoring Portfolio section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring Portfolio section" />
   </component>
 </project>
