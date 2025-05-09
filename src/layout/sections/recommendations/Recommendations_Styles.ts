@@ -56,7 +56,7 @@ const Comment = styled.p`
     font-size: 15px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: left;
     text-transform: capitalize;
 `
