@@ -1,8 +1,6 @@
 import React from 'react';
-import styled from "styled-components";
 import {Icon} from "../../../../components/icon/Icon";
-import {FlexWrapper} from "../../../../components/FlexWrapper";
-import {theme} from "../../../../styles/Theme";
+import {S} from "../Services_Styles";
 
 export type ServicePropsType = {
     iconId: string
@@ -13,30 +11,14 @@ export type ServicePropsType = {
     viewBox?: string
 }
 
-export const Service = (props: ServicePropsType) => {
+export const Service: React.FC<ServicePropsType> = (props: ServicePropsType) => {
     return (
-        <StyledService>
+        <S.Service>
             <Icon iconId={props.iconId} width={props.width} height={props.height} viewBox={props.viewBox} />
-            <ServiceTitle>{props.title}</ServiceTitle>
-            <ServiceText>{props.text}</ServiceText>
-        </StyledService>
+            <S.ServiceTitle>{props.title}</S.ServiceTitle>
+            <S.ServiceText>{props.text}</S.ServiceText>
+        </S.Service>
     );
 };
 
-const StyledService = styled.div`
-    background-color: white;
-    flex-grow: 1;
-    width: 310px;
-    height: 225px;
-    padding: 30px 25px 28px 25px;
-    
-    & svg {
-        fill: ${theme.colors.accent};
-    }
-`
 
-const ServiceTitle = styled.h3`
-    padding: 10px 0 15px;
-`
-
-const ServiceText = styled.p``

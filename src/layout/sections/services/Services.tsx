@@ -2,14 +2,13 @@ import React from 'react';
 import {FlexWrapper} from "../../../components/FlexWrapper";
 import {SectionTitle} from "../SectionTitle";
 import {Service} from "./service/Service";
-import styled from "styled-components";
 import {Button} from "../../../components/button/Button";
 import {Container} from "../../../components/Container";
-import {theme} from "../../../styles/Theme";
+import {S} from "./Services_Styles";
 
-export const Services = () => {
+export const Services: React.FC = () => {
     return (
-        <StyledServices>
+        <S.Services>
             <Container>
                 <SectionTitle title={'My services'} description={'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum'} />
                 <FlexWrapper justifyContent={'space-between'} wrap={'wrap'}>
@@ -18,71 +17,14 @@ export const Services = () => {
                     <Service iconId={'microphone'} width={'74'} height={'74'} viewBox={'0 0 74 74'} title={'sound design'} text={'Voice Over, Beat Making'} />
                     <Service iconId={'gameDevelopment'} width={'74'} height={'74'} viewBox={'0 0 74 74'} title={'game design'} text={'Character Design, Props & Objects'} />
                     <Service iconId={'photographer'} width={'78'} height={'78'} viewBox={'0 0 78 78'} title={'photography'} text={'portrait, product photography'} />
-                    <StyledLastService>
-                        <LastServiceTitle>advertising</LastServiceTitle>
-                        <LastServiceDescription>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi.</LastServiceDescription>
+                    <S.LastService>
+                        <S.LastServiceTitle>advertising</S.LastServiceTitle>
+                        <S.LastServiceDescription>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi.</S.LastServiceDescription>
                         <Button>ORDER NOW</Button>
-                    </StyledLastService>
+                    </S.LastService>
                 </FlexWrapper>
             </Container>
-        </StyledServices>
+        </S.Services>
     );
 };
 
-const StyledServices = styled.section`
-    text-align: center;
-    
-    ${FlexWrapper} {
-        gap: 20px;
-        
-        @media ${theme.media.tablet} {
-            justify-content: center;
-        }
-    }
-`
-
-const StyledLastService = styled.div`
-    background-color: white;
-    flex-grow: 1;
-    width: 310px;
-    height: 225px;
-    padding: 30px 25px 28px 25px;
-    
-    & button {
-        color: ${theme.colors.accent};
-        font-family: Roboto, sans-serif;
-        font-size: 12px;
-        font-weight: 700;
-        padding: 3px 17px 3px 0;
-        
-        position: relative;
-        
-        &::before {
-            content: "";
-            width: 5px;
-            height: 1.5px;
-            background-color: ${theme.colors.accent};
-            position: absolute;
-            right: 7px;
-            top: 40%;
-            transform: rotate(45deg);
-        }
-
-        &::after {
-            content: "";
-            width: 5px;
-            height: 1.5px;
-            background-color: ${theme.colors.accent};
-            position: absolute;
-            right: 7px;
-            bottom: 40%;
-            transform: rotate(-45deg);
-        }
-    }
-`
-
-const LastServiceTitle = styled.h3``
-
-const LastServiceDescription = styled.p`
-    padding: 16px 0 7px;
-`
