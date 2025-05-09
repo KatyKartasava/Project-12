@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af999f32-5135-41e5-b7ca-4ca230bba785" name="Changes" comment="Refactoring Main">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/header/Header_Styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/Header_Styles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/header/headerMenu/HeaderMenu_Styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/headerMenu/HeaderMenu_Styles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/header/headerMenu/desktopMenu/DesktopMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/headerMenu/desktopMenu/DesktopMenu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Global.styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Global.styled.ts" afterDir="false" />
-    </list>
+    <list default="true" id="af999f32-5135-41e5-b7ca-4ca230bba785" name="Changes" comment="Header" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,8 +83,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.deploy" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +145,7 @@
       <workItem from="1746340447193" duration="27008000" />
       <workItem from="1746541429430" duration="10855000" />
       <workItem from="1746557869330" duration="1126000" />
-      <workItem from="1746721374814" duration="1248000" />
+      <workItem from="1746721374814" duration="1464000" />
     </task>
     <task id="LOCAL-00001" summary="Add mixin">
       <option name="closed" value="true" />
@@ -313,7 +307,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746558575242</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Header">
+      <option name="closed" value="true" />
+      <created>1746723558484</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1746723558484</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,6 +339,7 @@
     <MESSAGE value="changes Main" />
     <MESSAGE value="Refactoring Header" />
     <MESSAGE value="Refactoring Main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring Main" />
+    <MESSAGE value="Header" />
+    <option name="LAST_COMMIT_MESSAGE" value="Header" />
   </component>
 </project>

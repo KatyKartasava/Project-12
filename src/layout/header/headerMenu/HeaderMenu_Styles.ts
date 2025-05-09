@@ -341,6 +341,12 @@ const MobileMenuPopup = styled.div<{isOpen: boolean}>`
     background-color: white;
     display: none;
     
+    ${DesktopMenu} {
+        left: 50%;
+        right: 50%;
+        transform: translateX(-50%);
+    }
+    
     
     ${props => props.isOpen && css <{isOpen: boolean}>`
         display: flex;
