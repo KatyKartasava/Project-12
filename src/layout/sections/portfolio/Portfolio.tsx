@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 import {SectionTitle} from "../SectionTitle";
 import img1 from "./../../../assets/images/landing-page-business-startup.jpg";
 import img2 from "./../../../assets/images/white-business-card-with-red-details.jpg";
