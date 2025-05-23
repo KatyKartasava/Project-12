@@ -1,23 +1,19 @@
 import styled from "styled-components";
 import {Button} from "../../../components/button/Button";
+import {FlexWrapper} from "../../../components/FlexWrapper";
 
-const Portfolio = styled.section``
+const Portfolio = styled.section`
+    ${FlexWrapper} {
+        gap: 20px;
+    }
+`
 
 // Potfolio Item
 
-const PortfolioItems = styled.div`
-    ul {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 20px;
-        
-        li {
-            max-width: 310px;
-            width: 260px;
-            flex-grow: 1;
-        }
-    }
+const PortfolioItem = styled.div`
+    max-width: 310px;
+    width: 260px;
+    flex-grow: 1;
 
     img {
         width: 310px;
@@ -26,7 +22,7 @@ const PortfolioItems = styled.div`
     }
 `
 
-const ImageWrapper = styled.li`
+const ImageWrapper = styled.div`
     position: relative;
 
     ${Button} {
@@ -73,7 +69,7 @@ const ListItem = styled.li``
 
 export const S = {
     Portfolio,
-    PortfolioItems,
+    PortfolioItem,
     ImageWrapper,
     TabMenu,
     ListItem
