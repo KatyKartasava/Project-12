@@ -1,0 +1,23 @@
+.alice-carousel__stage {
+    display: flex;
+    gap: 20px;
+}
+
+.alice-carousel__dots-item:not(.__custom):hover,
+.alice-carousel__dots-item:not(.__custom).__active {
+    background-color: #ffb400;
+}
+
+.alice-carousel__dots-item:not(.__custom) {
+    background-color: rgba(255, 180, 0, 0.5);
+    width: 10px;
+    height: 10px;
+}
+
+.alice-carousel__dots-item:not(.__custom):not(:last-child) {
+    margin-right: 10px;
+}
+
+.alice-carousel__prev-btn, .alice-carousel__next-btn {
+    display: none;
+}

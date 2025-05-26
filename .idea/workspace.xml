@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af999f32-5135-41e5-b7ca-4ca230bba785" name="Changes" comment="Portfolio add tabs useState + filter">
-      <change afterPath="$PROJECT_DIR$/src/components/slider/Slider.tsx" afterDir="false" />
+    <list default="true" id="af999f32-5135-41e5-b7ca-4ca230bba785" name="Changes" comment="add slider">
+      <change afterPath="$PROJECT_DIR$/src/styles/slider.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/slider/Slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slider/Slider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/slider/Slider_Styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slider/Slider_Styles.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,10 +18,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="tsconfig.json" />
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -156,7 +156,8 @@
       <workItem from="1746721374814" duration="1464000" />
       <workItem from="1746768182227" duration="6488000" />
       <workItem from="1746904877335" duration="662000" />
-      <workItem from="1747926281206" duration="10985000" />
+      <workItem from="1747926281206" duration="12659000" />
+      <workItem from="1748276391283" duration="5674000" />
     </task>
     <task id="LOCAL-00001" summary="Add mixin">
       <option name="closed" value="true" />
@@ -422,14 +423,21 @@
       <option name="project" value="LOCAL" />
       <updated>1748020881604</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="add slider">
+      <option name="closed" value="true" />
+      <created>1748029146516</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1748029146516</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Correct LeftMenu" />
     <MESSAGE value="change menuLeft" />
     <MESSAGE value="change" />
     <MESSAGE value="services center in mobile" />
@@ -454,6 +462,7 @@
     <MESSAGE value="Refactoring Portfolio section" />
     <MESSAGE value="Refactoring Recommendations section" />
     <MESSAGE value="Portfolio add tabs useState + filter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Portfolio add tabs useState + filter" />
+    <MESSAGE value="add slider" />
+    <option name="LAST_COMMIT_MESSAGE" value="add slider" />
   </component>
 </project>

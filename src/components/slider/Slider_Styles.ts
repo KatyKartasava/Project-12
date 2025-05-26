@@ -15,7 +15,8 @@ const Slider = styled.ul`
 `
 
 const Slide = styled.li`
-    width: 310px;
+    min-width: 310px;
+    width: 100%;
     background-color: white;
     text-align: left;
     padding: 25px 21px 25px 25px;
