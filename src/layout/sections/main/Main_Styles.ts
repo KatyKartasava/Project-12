@@ -11,7 +11,7 @@ const Main = styled.section`
 `
 
 const TextMain = styled.div`
-    max-width: 500px;
+    max-width: 580px;
     width: 100%;
     padding-left: 60px;
     padding-top: 20px;
@@ -89,7 +89,11 @@ export const MainTitle = styled.h1`
     line-height: 123.6%;
     letter-spacing: 1.3px;
 
-    span {
+    p {
+        display: none;
+    }
+
+    span span {
         color: ${theme.colors.accent};
         text-transform: none;
     }
