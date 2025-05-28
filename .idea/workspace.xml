@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af999f32-5135-41e5-b7ca-4ca230bba785" name="Changes" comment="add link" />
+    <list default="true" id="af999f32-5135-41e5-b7ca-4ca230bba785" name="Changes" comment="delete">
+      <change afterPath="$PROJECT_DIR$/src/styles/ProgressLine.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/range/Range.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/range/Range.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/header/headerMenu/desktopMenu/DesktopMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/headerMenu/desktopMenu/DesktopMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/price/priceCard/PriceCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/price/priceCard/PriceCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/workHistory/WorkHistory.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/workHistory/WorkHistory.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +45,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/Incubator/New start project/project-12",
     "list.type.of.created.stylesheet": "CSS",
@@ -443,7 +450,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748372092035</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="delete">
+      <option name="closed" value="true" />
+      <created>1748446011999</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1748446011999</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,8 +488,8 @@
     <MESSAGE value="Portfolio add tabs useState + filter" />
     <MESSAGE value="add slider" />
     <MESSAGE value="styled slider" />
-    <MESSAGE value="delete" />
     <MESSAGE value="add link" />
-    <option name="LAST_COMMIT_MESSAGE" value="add link" />
+    <MESSAGE value="delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete" />
   </component>
 </project>

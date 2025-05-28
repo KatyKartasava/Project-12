@@ -53,14 +53,14 @@ export const DesktopMenu: React.FC = () => {
                 </S.Block>
                 <S.Block className="Languages">
                     <h4>Languages</h4>
-                    {languages.map((l, index) => (
-                        <Range name={l.name} value={l.value} type={"range"} />
+                    {languages.map((l) => (
+                        <Range name={l.name} value={l.value} type={"range"} progress={l.value} />
                     ))}
                 </S.Block>
                 <S.Block className="Skills">
                     <h4>Skills</h4>
-                    {skills.map((s, index) => (
-                        <Range name={s.name} value={s.value} type={"range"} />
+                    {skills.map((s) => (
+                        <Range name={s.name} value={s.value} type={"range"} progress={s.value} />
                     ))}
                 </S.Block>
                 <S.Block className="ExtraSkills">

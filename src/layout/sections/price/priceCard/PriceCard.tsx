@@ -2,38 +2,10 @@ import React from 'react';
 import styled from "styled-components";
 import {Button} from "../../../../components/button/Button";
 
-// type PriceCardPropsType = {
-//     title: string
-//     price: string
-//     text: string
-// }
-//
-// export const PriceCard = (props: PriceCardPropsType) => {
-//     return (
-//         <StyledPriceCard>
-//             <TitlePriceCard>{props.title}</TitlePriceCard>
-//             <Price>{props.price} <span>/Hour</span></Price>
-//             <Text>{props.text}</Text>
-//             <ServicePlan>
-//                 <li>UI Design</li>
-//                 <li>Web development</li>
-//                 <li>Logo design</li>
-//                 <li>Seo optimization</li>
-//                 <li>WordPress integration</li>
-//                 <li>5 Websites</li>
-//                 <li>Unlimited user</li>
-//                 <li>20 gB bandwith</li>
-//             </ServicePlan>
-//             <Button title={'ORDER NOW'} />
-//         </StyledPriceCard>
-//     );
-// };
-
 interface PriceCardPropsType {
     title: string;
     price: string;
     text: string;
-    // services: string[];  // Dynamically accept services as an array of strings
 }
 
 export const PriceCard = ({ title, price, text}: PriceCardPropsType) => {
@@ -46,7 +18,8 @@ export const PriceCard = ({ title, price, text}: PriceCardPropsType) => {
         "5 Websites",
         "Unlimited users",
         "20 GB bandwidth"
-    ]
+    ];
+
     return (
         <StyledPriceCard>
             <TitlePriceCard>{title}</TitlePriceCard>
