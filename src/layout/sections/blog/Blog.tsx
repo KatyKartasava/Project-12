@@ -15,7 +15,7 @@ const blogItemsData = [
 
 export const Blog: React.FC = () => {
     return (
-        <S.Blog>
+        <S.Blog id={'blog'}>
             <Container>
                 <SectionTitle title={"Blog"} description={"Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum"} />
                 <S.FlexWrapper justifyContent={"space-between"} wrap={"wrap"}>

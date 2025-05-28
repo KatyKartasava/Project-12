@@ -8,12 +8,11 @@ import Typewriter from "typewriter-effect";
 
 export const Main: React.FC = () => {
     return (
-        <S.Main>
+        <S.Main id={'home'}>
             <Container>
                 <FlexWrapper justifyContent={'center'} alignItems={'center'} wrap={'wrap'}>
                     <S.TextMain>
                         <S.Name>I’m Rayan Adlrdard</S.Name>
-                        {/*<S.MainTitle><span>Front-end</span> Developer</S.MainTitle>*/}
                         <S.MainTitle>
                             <p>Front-end Developer</p>
                             <Typewriter

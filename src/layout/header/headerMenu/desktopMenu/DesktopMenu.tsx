@@ -7,6 +7,7 @@ import {S} from "../HeaderMenu_Styles";
 import {MainTitle, Name} from "../../../sections/main/Main_Styles";
 
 const listItemsIcon = ['iconFacebook', 'iconInstagram', 'iconTwitter', 'iconLinkedin', 'iconYoutube', 'iconDribble'];
+
 const privatInfo = [
     {name: "Age", value: "24"},
     {name: "Residence", value: "BD"},

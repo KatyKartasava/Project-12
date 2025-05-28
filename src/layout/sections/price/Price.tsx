@@ -9,9 +9,10 @@ export const Price = () => {
         <StyledPrice>
            <SectionTitle title={'Price plans'} description={'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum'} />
             <FlexWrapper>
-                <PriceCard title={'Silver'}
+                <PriceCard title={'Basic Plan'}
                            price={'$0.00'}
-                           text={'For most businesses that want to optimize web queries'} />
+                           text={'This is the basic plan'}
+                />
                 <PriceCard title={'Gold'}
                            price={'$50.00'}
                            text={'For most businesses that want to optimize web queries'} />

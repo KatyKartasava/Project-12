@@ -12,7 +12,7 @@ const experienceData = [
 
 export const Education: React.FC = () => {
     return (
-        <S.Education>
+        <S.Education id={'cv'}>
             <Container>
                 <SectionTitle title={'Education'}
                               description={'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum'} />

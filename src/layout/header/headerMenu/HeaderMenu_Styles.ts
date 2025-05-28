@@ -359,7 +359,7 @@ const MobileMenuPopup = styled.div<{isOpen: boolean}>`
 const RightMenu = styled.nav`
     background-color: ${theme.colors.primaryBg};
 
-    position: absolute;
+    position: fixed;
     right: 0;
     width: 108px;
     height: 1315px;

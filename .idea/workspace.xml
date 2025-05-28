@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af999f32-5135-41e5-b7ca-4ca230bba785" name="Changes" comment="styled slider">
+    <list default="true" id="af999f32-5135-41e5-b7ca-4ca230bba785" name="Changes" comment="delete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/header/headerMenu/HeaderMenu_Styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/headerMenu/HeaderMenu_Styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/header/headerMenu/desktopMenu/DesktopMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/headerMenu/desktopMenu/DesktopMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/header/headerMenu/rightMenu/RightMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/headerMenu/rightMenu/RightMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/blog/Blog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/blog/Blog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/contactForm/ContactForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/contactForm/ContactForm.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/sections/main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/main/Main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/sections/main/Main_Styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/main/Main_Styles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/portfolio/Portfolio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/portfolio/Portfolio.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/price/Price.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/price/Price.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/price/priceCard/PriceCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/price/priceCard/PriceCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/services/Services.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/services/Services.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,8 +99,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.deploy" />
       </list>
     </recent_temporary>
   </component>
@@ -159,6 +166,7 @@
       <workItem from="1746904877335" duration="662000" />
       <workItem from="1747926281206" duration="12659000" />
       <workItem from="1748276391283" duration="7564000" />
+      <workItem from="1748443008181" duration="2058000" />
     </task>
     <task id="LOCAL-00001" summary="Add mixin">
       <option name="closed" value="true" />
@@ -440,14 +448,21 @@
       <option name="project" value="LOCAL" />
       <updated>1748286825548</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="delete">
+      <option name="closed" value="true" />
+      <created>1748372092035</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1748372092035</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change" />
     <MESSAGE value="services center in mobile" />
     <MESSAGE value="mobile version" />
     <MESSAGE value="pixel perfect" />
@@ -472,6 +487,7 @@
     <MESSAGE value="Portfolio add tabs useState + filter" />
     <MESSAGE value="add slider" />
     <MESSAGE value="styled slider" />
-    <option name="LAST_COMMIT_MESSAGE" value="styled slider" />
+    <MESSAGE value="delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete" />
   </component>
 </project>

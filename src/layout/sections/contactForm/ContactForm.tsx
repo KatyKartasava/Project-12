@@ -26,7 +26,7 @@ export const ContactForm: React.FC = () => {
     ];
 
     return (
-        <S.Contact>
+        <S.Contact id={'contact'}>
             <Container>
                 <S.ContactForm>
                     <SectionTitle title={'Leave us your info'} description={''} />
