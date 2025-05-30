@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af999f32-5135-41e5-b7ca-4ca230bba785" name="Changes" comment="delete">
-      <change afterPath="$PROJECT_DIR$/src/styles/ProgressLine.css" afterDir="false" />
+    <list default="true" id="af999f32-5135-41e5-b7ca-4ca230bba785" name="Changes" comment="correct progress line">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/range/Range.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/range/Range.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/range/Range.styled.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/progress/Progress_Styled.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/range/Range.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/progress/Progress.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/header/headerMenu/desktopMenu/DesktopMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/headerMenu/desktopMenu/DesktopMenu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/sections/price/priceCard/PriceCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/price/priceCard/PriceCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/sections/workHistory/WorkHistory.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/workHistory/WorkHistory.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/ProgressLine.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,26 +40,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Incubator/New start project/project-12",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "npm.deploy.executor": "Run",
-    "npm.start.executor": "Run",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "ts.external.directory.path": "D:\\Incubator\\New start project\\project-12\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Incubator/New start project/project-12&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;npm.deploy.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Incubator\\New start project\\project-12\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Incubator\New start project\project-12\src\assets\images\svg" />
@@ -161,6 +160,8 @@
       <workItem from="1747926281206" duration="12659000" />
       <workItem from="1748276391283" duration="7564000" />
       <workItem from="1748443008181" duration="2058000" />
+      <workItem from="1748618939604" duration="1245000" />
+      <workItem from="1748620207265" duration="4588000" />
     </task>
     <task id="LOCAL-00001" summary="Add mixin">
       <option name="closed" value="true" />
@@ -458,14 +459,21 @@
       <option name="project" value="LOCAL" />
       <updated>1748446011999</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="correct progress line">
+      <option name="closed" value="true" />
+      <created>1748447851087</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1748447851087</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="mobile version" />
     <MESSAGE value="pixel perfect" />
     <MESSAGE value="pixel perfect left menu" />
     <MESSAGE value="pixel perfect main" />
@@ -490,6 +498,7 @@
     <MESSAGE value="styled slider" />
     <MESSAGE value="add link" />
     <MESSAGE value="delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete" />
+    <MESSAGE value="correct progress line" />
+    <option name="LAST_COMMIT_MESSAGE" value="correct progress line" />
   </component>
 </project>
