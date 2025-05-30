@@ -128,36 +128,7 @@ export const Block = styled.div`
     label {
         display: flex;
         justify-content: space-between;
-    }
-    
-    input {
-        width: 100%;
-        cursor: pointer;
-        overflow: hidden;
-        margin-top: 1px;
-        margin-bottom: 10px;
-        display: flex;
-        flex-direction: column;
-    }  
-    
-    input[type="range"] {
-        appearance: none;
-        border: 1px solid ${theme.colors.accent};
-        border-radius: 30px;
-        width: 220px;
-        height: 4px;
-        outline: none;
-    }
-    
-    input[type="range"]::-webkit-slider-thumb {
-        appearance: none;
-        border-radius: 30px;
-        height: 2px;
-        width: 20px;
-        background-color: ${theme.colors.accent};
-        box-shadow: -200px 0 0 200px ${theme.colors.accent};
-        border: none;
-    }
+    }    
     
     &.ExtraSkills {
         li {
@@ -233,6 +204,11 @@ export const Block = styled.div`
             width: 24px;
             height: 24px;
             background-color: ${theme.colors.accent};
+            transition: background-color 0.3s ease;
+        }
+
+        &:hover::before {
+            background-color: ${theme.colors.primaryBg};
         }
     }
 `
