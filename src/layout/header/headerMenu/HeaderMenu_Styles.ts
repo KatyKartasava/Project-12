@@ -4,8 +4,50 @@ import {FlexWrapper} from "../../../components/FlexWrapper";
 import {Button} from "../../../components/button/Button";
 import {MainTitle, Name} from "../../sections/main/Main_Styles";
 
+const Tooltip = styled.div`
+    position: absolute;
+    width: 65px;
+    text-align: center;
+    bottom: 200%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: white;
+    padding: 6px 0;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    margin-bottom: 6px;
+    z-index: 10;
+    border-radius: 5px;
+    
+    &:after {
+        position: absolute;
+        content: "";
+        top: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+        border-width: 16px;
+        border-style: solid;
+        border-color: black transparent transparent transparent;
+    }
+`
+
+const IconWrapper = styled.div`
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+
+    &:hover ${Tooltip} {
+        opacity: 1;
+        pointer-events: auto;
+    }
+`
+
 const ListItem = styled.ul`
-    li + li {
+    ${IconWrapper} + ${IconWrapper} {
         margin-top: 43px;
 
         @media ${theme.media.tablet} {
@@ -38,6 +80,10 @@ const Item = styled.li`
         transform: translate(-50%, -50%);
         z-index: -1;
         transform-origin: top left;
+    }
+    
+    &:hover:before {
+        background-color: ${theme.colors.accent};
     }
 `
 
@@ -384,32 +430,6 @@ const ThemeButton = styled.button`
 
     @media ${theme.media.tablet} {
         margin: 0;
-    }
-`
-
-const Tooltip = styled.span`
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: black;
-    color: white;
-    padding: 6px 10px;
-    font-size: 12px;
-    white-space: nowrap;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.2s ease;
-    margin-bottom: 6px;
-    z-index: 10;
-`
-
-const IconWrapper = styled.div`
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-
-    &:hover ${Tooltip} {
-        opacity: 1;
     }
 `
 
