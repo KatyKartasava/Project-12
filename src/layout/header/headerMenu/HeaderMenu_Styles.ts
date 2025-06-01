@@ -47,11 +47,13 @@ const Link = styled.a`
 
 const DesktopMenu = styled.aside`
     width: 305px;
-    position: absolute;
+    height: 100vh;
+    position: fixed;
     left: 0;
     top: 0;
     background-color: ${theme.colors.primaryBg};
     line-height: 24px;
+    overflow-y: auto;
     
     ${FlexWrapper} {
         padding: 50px 46px 25px 40px;
@@ -86,6 +88,20 @@ const DesktopMenu = styled.aside`
         svg {
             margin-left: 20px;
         }
+    }
+    
+    &::-webkit-scrollbar {
+        width: 6px;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+        background-color: ${theme.colors.accentBg};
+        border: 1px solid ${theme.colors.accentBg};
+        border-radius: 10px;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background-color: ${theme.colors.accent};
     }
 `
 

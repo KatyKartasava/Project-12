@@ -23,7 +23,7 @@ const ProgressFill = styled.div`
     background-color: #ffb400;
     border-radius: 4px;
     height: 100%;
-    transition: width 0.5s linear;
+    transition: width 0.7s ease-in 0.3s;
 `
 
 export const S = {

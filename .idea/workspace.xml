@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af999f32-5135-41e5-b7ca-4ca230bba785" name="Changes" comment="correct progress line">
+    <list default="true" id="af999f32-5135-41e5-b7ca-4ca230bba785" name="Changes" comment="add hover social item in desktop menu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/progress/Progress_Styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/progress/Progress_Styled.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/header/headerMenu/HeaderMenu_Styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/headerMenu/HeaderMenu_Styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Theme.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +160,8 @@
       <workItem from="1748276391283" duration="7564000" />
       <workItem from="1748443008181" duration="2058000" />
       <workItem from="1748618939604" duration="1245000" />
-      <workItem from="1748620207265" duration="5635000" />
+      <workItem from="1748620207265" duration="6788000" />
+      <workItem from="1748758410534" duration="2092000" />
     </task>
     <task id="LOCAL-00001" summary="Add mixin">
       <option name="closed" value="true" />
@@ -472,14 +475,21 @@
       <option name="project" value="LOCAL" />
       <updated>1748625181981</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="add hover social item in desktop menu">
+      <option name="closed" value="true" />
+      <created>1748625992806</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1748625992806</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="pixel perfect" />
     <MESSAGE value="pixel perfect left menu" />
     <MESSAGE value="pixel perfect main" />
     <MESSAGE value="changes" />
@@ -504,6 +514,7 @@
     <MESSAGE value="add link" />
     <MESSAGE value="delete" />
     <MESSAGE value="correct progress line" />
-    <option name="LAST_COMMIT_MESSAGE" value="correct progress line" />
+    <MESSAGE value="add hover social item in desktop menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="add hover social item in desktop menu" />
   </component>
 </project>
