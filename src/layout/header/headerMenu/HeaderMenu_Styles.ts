@@ -387,6 +387,32 @@ const ThemeButton = styled.button`
     }
 `
 
+const Tooltip = styled.span`
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: black;
+    color: white;
+    padding: 6px 10px;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    margin-bottom: 6px;
+    z-index: 10;
+`
+
+const IconWrapper = styled.div`
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+
+    &:hover ${Tooltip} {
+        opacity: 1;
+    }
+`
+
 export const S = {
     DesktopMenu,
     PhotoWrapper,
@@ -400,5 +426,7 @@ export const S = {
     ListItem,
     Item,
     Link,
-    ThemeButton
+    ThemeButton,
+    IconWrapper,
+    Tooltip
 }
