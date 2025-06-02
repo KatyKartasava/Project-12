@@ -4,46 +4,10 @@ import {FlexWrapper} from "../../../components/FlexWrapper";
 import {Button} from "../../../components/button/Button";
 import {MainTitle, Name} from "../../sections/main/Main_Styles";
 
-const Tooltip = styled.div`
-    position: absolute;
-    width: 65px;
-    text-align: center;
-    bottom: 200%;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: black;
-    color: white;
-    padding: 6px 0;
-    font-size: 12px;
-    white-space: nowrap;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.2s ease;
-    margin-bottom: 6px;
-    z-index: 10;
-    border-radius: 5px;
-    
-    &:after {
-        position: absolute;
-        content: "";
-        top: 80%;
-        left: 50%;
-        transform: translateX(-50%);
-        border-width: 16px;
-        border-style: solid;
-        border-color: black transparent transparent transparent;
-    }
-`
-
 const IconWrapper = styled.div`
     position: relative;
     display: inline-block;
     cursor: pointer;
-
-    &:hover ${Tooltip} {
-        opacity: 1;
-        pointer-events: auto;
-    }
 `
 
 const ListItem = styled.ul`
@@ -61,10 +25,51 @@ const ListItem = styled.ul`
     }
 `
 
-const Item = styled.li`
+const Tooltip = styled.div<{ active?: boolean }>`
+    position: absolute;
+    width: 65px;
+    text-align: center;
+    bottom: 200%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: white;
+    padding: 6px 0;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    margin-bottom: 6px;
+    z-index: 10;
+    border-radius: 5px;
+
+    ${({ active }) => active && css`
+        opacity: 1;
+        pointer-events: auto;
+    `}
+    
+    &:after {
+        position: absolute;
+        content: "";
+        top: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+        border-width: 16px;
+        border-style: solid;
+        border-color: black transparent transparent transparent;
+    }
+`
+
+const Item = styled.li<{ active?: boolean }>`
     position: relative;
     z-index: 1;
     text-align: center;
+
+    &:hover ${Tooltip} {
+        opacity: 1;
+        pointer-events: auto;
+    }
 
     &::before {
         content: "";
@@ -73,16 +78,20 @@ const Item = styled.li`
         height: 40px;
         background-color: ${theme.colors.secondaryBg};
         border-radius: 50%;
+        transition: background-color 0.2s;
 
         position: absolute;
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
         z-index: -1;
-        transform-origin: top left;
+
+        ${props => props.active && css`
+            background-color: ${theme.colors.accent};
+        `}
     }
-    
-    &:hover:before {
+
+    &:hover::before {
         background-color: ${theme.colors.accent};
     }
 `

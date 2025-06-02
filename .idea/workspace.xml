@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af999f32-5135-41e5-b7ca-4ca230bba785" name="Changes" comment="add Tooltip">
+    <list default="true" id="af999f32-5135-41e5-b7ca-4ca230bba785" name="Changes" comment="Tooltip styled">
+      <change afterPath="$PROJECT_DIR$/src/components/tabMenu/TabMenu.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/header/headerMenu/HeaderMenu_Styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/headerMenu/HeaderMenu_Styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/header/headerMenu/rightMenu/RightMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/headerMenu/rightMenu/RightMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Global.styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Global.styled.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +20,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="tsconfig.json" />
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
         <option value="CSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -160,7 +163,8 @@
       <workItem from="1748618939604" duration="1245000" />
       <workItem from="1748620207265" duration="6788000" />
       <workItem from="1748758410534" duration="3701000" />
-      <workItem from="1748792567806" duration="2066000" />
+      <workItem from="1748792567806" duration="2811000" />
+      <workItem from="1748881792128" duration="7592000" />
     </task>
     <task id="LOCAL-00001" summary="Add mixin">
       <option name="closed" value="true" />
@@ -498,14 +502,21 @@
       <option name="project" value="LOCAL" />
       <updated>1748762526117</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Tooltip styled">
+      <option name="closed" value="true" />
+      <created>1748794794065</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1748794794065</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changes" />
     <MESSAGE value="changes ContactForm" />
     <MESSAGE value="changes Main" />
     <MESSAGE value="Refactoring Header" />
@@ -530,6 +541,7 @@
     <MESSAGE value="add hover social item in desktop menu" />
     <MESSAGE value="add and styled scrollbar DesktopMenu" />
     <MESSAGE value="add Tooltip" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Tooltip" />
+    <MESSAGE value="Tooltip styled" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tooltip styled" />
   </component>
 </project>

@@ -10,6 +10,10 @@ export const GlobalStyled = createGlobalStyle `
         box-sizing: border-box;
     }
 
+    html {
+        scroll-behavior: smooth;
+    }
+
     body {
         
         max-width: 1440px;
