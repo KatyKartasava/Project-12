@@ -12,6 +12,7 @@ import {ContactForm} from "./layout/sections/contactForm/ContactForm";
 import {Map} from "./layout/sections/map/Map";
 import {Logo} from "./layout/sections/logo/Logo";
 import {Education} from "./layout/sections/education/Education";
+import {GoTopBtn} from "./components/goTopBtn/GoTopBtn";
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
             <Map />
             <Logo />
             <Footer />
+            <GoTopBtn />
         </div>
     );
 }

@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af999f32-5135-41e5-b7ca-4ca230bba785" name="Changes" comment="Tooltip styled">
-      <change afterPath="$PROJECT_DIR$/src/components/tabMenu/TabMenu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/goTopBtn/GoTopBtn.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/header/headerMenu/HeaderMenu_Styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/headerMenu/HeaderMenu_Styles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/header/headerMenu/rightMenu/RightMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/headerMenu/rightMenu/RightMenu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Global.styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Global.styled.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/svg/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/svg/sprite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +165,8 @@
       <workItem from="1748620207265" duration="6788000" />
       <workItem from="1748758410534" duration="3701000" />
       <workItem from="1748792567806" duration="2811000" />
-      <workItem from="1748881792128" duration="7592000" />
+      <workItem from="1748881792128" duration="7707000" />
+      <workItem from="1749138238532" duration="2511000" />
     </task>
     <task id="LOCAL-00001" summary="Add mixin">
       <option name="closed" value="true" />
@@ -510,7 +512,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748794794065</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Tooltip styled">
+      <option name="closed" value="true" />
+      <created>1748890011163</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1748890011163</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
