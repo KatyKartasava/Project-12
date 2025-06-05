@@ -3,6 +3,7 @@ import {theme} from "../../../styles/Theme";
 import {FlexWrapper} from "../../../components/FlexWrapper";
 import {Button} from "../../../components/button/Button";
 import {MainTitle, Name} from "../../sections/main/Main_Styles";
+import {Link} from "react-scroll";
 
 const IconWrapper = styled.div`
     position: relative;
@@ -96,7 +97,7 @@ const Item = styled.li<{ active?: boolean }>`
     }
 `
 
-const Link = styled.a`
+const NavLink = styled(Link)`
     display: flex;
 `
 
@@ -454,7 +455,7 @@ export const S = {
     RightMenu,
     ListItem,
     Item,
-    Link,
+    NavLink,
     ThemeButton,
     IconWrapper,
     Tooltip

@@ -57,9 +57,9 @@ export const DesktopMenu: React.FC = () => {
                     <S.ListItem>
                         {listItemsIcon.map((icon, index) => (
                             <S.Item key={index}>
-                                <S.Link aria-label={icon.label}>
+                                <S.NavLink as={"a"} aria-label={icon.label}>
                                     <Icon iconId={icon.id} width="14" height="14" viewBox="0 0 14 14" />
-                                </S.Link>
+                                </S.NavLink>
                             </S.Item>
                         ))}
                     </S.ListItem>

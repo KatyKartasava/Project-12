@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af999f32-5135-41e5-b7ca-4ca230bba785" name="Changes" comment="Tooltip styled">
-      <change afterPath="$PROJECT_DIR$/src/components/goTopBtn/GoTopBtn.tsx" afterDir="false" />
+    <list default="true" id="af999f32-5135-41e5-b7ca-4ca230bba785" name="Changes" comment="add button GoTop and add library 'react-scroll'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/svg/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/svg/sprite.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tabMenu/TabMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabMenu/TabMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/header/headerMenu/HeaderMenu_Styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/headerMenu/HeaderMenu_Styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/header/headerMenu/desktopMenu/DesktopMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/headerMenu/desktopMenu/DesktopMenu.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,8 +91,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +164,7 @@
       <workItem from="1748758410534" duration="3701000" />
       <workItem from="1748792567806" duration="2811000" />
       <workItem from="1748881792128" duration="7707000" />
-      <workItem from="1749138238532" duration="2511000" />
+      <workItem from="1749138238532" duration="5688000" />
     </task>
     <task id="LOCAL-00001" summary="Add mixin">
       <option name="closed" value="true" />
@@ -520,14 +518,21 @@
       <option name="project" value="LOCAL" />
       <updated>1748890011163</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="add button GoTop and add library 'react-scroll'">
+      <option name="closed" value="true" />
+      <created>1749140892749</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1749140892749</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changes ContactForm" />
     <MESSAGE value="changes Main" />
     <MESSAGE value="Refactoring Header" />
     <MESSAGE value="Refactoring Main" />
@@ -552,6 +557,7 @@
     <MESSAGE value="add and styled scrollbar DesktopMenu" />
     <MESSAGE value="add Tooltip" />
     <MESSAGE value="Tooltip styled" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tooltip styled" />
+    <MESSAGE value="add button GoTop and add library 'react-scroll'" />
+    <option name="LAST_COMMIT_MESSAGE" value="add button GoTop and add library 'react-scroll'" />
   </component>
 </project>
