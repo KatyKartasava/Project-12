@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Project-12/static/css/main.5eaa3df2.css",
-    "main.js": "/Project-12/static/js/main.e4b69794.js",
+    "main.js": "/Project-12/static/js/main.2af0c412.js",
     "static/js/787.25eaef86.chunk.js": "/Project-12/static/js/787.25eaef86.chunk.js",
     "static/media/map.png": "/Project-12/static/media/map.6ecfffaf99c8e9dfb0b3.png",
     "static/media/FillingStation.svg": "/Project-12/static/media/FillingStation.800a60ffc76532910e137bdd4aa4dddc.svg",
@@ -13,8 +13,8 @@
     "static/media/web-template-with-landing-page-traditional-italian-food-restaurant.jpg": "/Project-12/static/media/web-template-with-landing-page-traditional-italian-food-restaurant.57e95a8082a1e5c531c1.jpg",
     "static/media/modern-business-brochure.jpg": "/Project-12/static/media/modern-business-brochure.b95338fe64e8af5723c4.jpg",
     "static/media/modern-pink-alcohol-ink-business-card.jpg": "/Project-12/static/media/modern-pink-alcohol-ink-business-card.15a39a46918fcabe8f69.jpg",
+    "static/media/sprite.svg": "/Project-12/static/media/sprite.6184c5837898c5dc65444a3500fc6a1d.svg",
     "static/media/red-professional-business-branding-stationery-set.jpg": "/Project-12/static/media/red-professional-business-branding-stationery-set.8a66f56e3a37763c582c.jpg",
-    "static/media/sprite.svg": "/Project-12/static/media/sprite.4a2ad00a122a7d1988dd9cf52f9a9d37.svg",
     "static/media/Petroleum.svg": "/Project-12/static/media/Petroleum.ef958c70bb124e39bb6608925265e101.svg",
     "static/media/landing-page-business-startup.jpg": "/Project-12/static/media/landing-page-business-startup.c9a389c01eda07395954.jpg",
     "static/media/white-business-card-with-red-details.jpg": "/Project-12/static/media/white-business-card-with-red-details.41d8a7f0c52cd0fa3a20.jpg",
@@ -24,11 +24,11 @@
     "static/media/ArrowButtonMain.svg": "/Project-12/static/media/ArrowButtonMain.5d661c5e559d56751139361d3f90e296.svg",
     "static/media/ArrowButtonHover.svg": "/Project-12/static/media/ArrowButtonHover.9f4c5ed5e9ac82344dbc974df79ea239.svg",
     "main.5eaa3df2.css.map": "/Project-12/static/css/main.5eaa3df2.css.map",
-    "main.e4b69794.js.map": "/Project-12/static/js/main.e4b69794.js.map",
+    "main.2af0c412.js.map": "/Project-12/static/js/main.2af0c412.js.map",
     "787.25eaef86.chunk.js.map": "/Project-12/static/js/787.25eaef86.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5eaa3df2.css",
-    "static/js/main.e4b69794.js"
+    "static/js/main.2af0c412.js"
   ]
 }
